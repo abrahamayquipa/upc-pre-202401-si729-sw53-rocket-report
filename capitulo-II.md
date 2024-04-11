@@ -28,7 +28,7 @@ Plataforma educativa integral diseñada para satisfacer las necesidades de insti
             <th colspan="2"></th>
             <th>RocketNotes<img src="/assets/img/chapter-II/Logo-Rocket.png" width="100"></th>
             <th>Schoology<img src="/assets/img/chapter-II/Logo-school.png" width="100"></th>
-            <th>PowerSchool<img src="/assets/img/chapter-II/Logo-power.png" width="100"></th>
+            <th>PowerSchool<img src="/assets/img/chapter-II/Logo-Power.png" width="100"></th>
             <th>Classe365<img src="/assets/img/chapter-II/Logo-365.png" width="250"></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
