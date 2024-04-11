@@ -26,10 +26,10 @@ Plataforma educativa integral diseñada para satisfacer las necesidades de insti
     <tbody style="text-align: center">
         <tr>
             <th colspan="2"></th>
-            <th><img src="./assets/img/chapter-II/Logo-Rocket.png" width="100"></th>
-            <th><img src="./assets/img/chapter-II/Logo-school.png" width="100"></th>
-            <th><img src="./assets/img/chapter-II/Logo-Power.png" width="100"></th>
-            <th><img src="./assets/img/chapter-II/Logo-365.png" width="250"></th>
+            <th><img src="Logo-Rocket.png" width="100"></th>
+            <th><img src="Logo-school.png" width="100"></th>
+            <th><img src="Logo-Power.png" width="100"></th>
+            <th><img src="Logo-365.png" width="250"></th>
         </tr>
         <!-- Este apartado pertenece al PERFIL se fucionó dos filas -->
         <tr>
@@ -173,7 +173,7 @@ Dada la creciente preocupación por la seguridad y la privacidad de los datos, i
 - [Entrevista_Segmento_Administrativo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/ET1SAV2zRHdEpOvQ03zXIzUBxwkD8ifZVKJqMl_9IQDA4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6K6Mcu)
 
 #### Entrevista #1:
-![entrevista1.png](./assets/img/chapter-II/entrevista1.png)
+![entrevista1.png](entrevista1.png)
 **Nombre:** Andrés Segovia Maya
 
 **Edad:** 39 años
@@ -206,7 +206,7 @@ Andrés resalta la importancia de que las soluciones tecnológicas en educación
 
 #### Entrevista #2:
 
-![entrevista2.png](./assets/img/chapter-II/entrevista2.png)
+![entrevista2.png](entrevista2.png)
 
 **Nombre:** Juan Carlos Rodríguez Carrion
 
@@ -237,7 +237,7 @@ Resalta los desafíos de la gestión manual de asistencias y calificaciones, apr
 
 #### Entrevista #3:
 
-![entrevista3.png](./assets/img/chapter-II/entrevista3.png)
+![entrevista3.png]( entrevista3.png)
 
 **Nombre:** Tatiana Cabrera Goicoechea
 
@@ -266,7 +266,7 @@ Uno de los principales desafíos es la transición de los registros manuales a s
 **Segmento objetivo #2: Equipo Administrativo**
 
 #### Entrevista #1:
-![entrevista4.png](./assets/img/chapter-II/entrevista4.png)
+![entrevista4.png]( entrevista4.png)
 
 **Nombre:** Graciela del Rocío Ríos Alza
 
@@ -303,7 +303,7 @@ La entrevista con Graciela del Rocío Ríos subraya la importancia de integrar t
 
 
 #### Entrevista #2:
-![entrevista5.png](./assets/img/chapter-II/entrevista5.png)
+![entrevista5.png]( entrevista5.png)
 
 **Nombre:** Paul Ramos Chumpitazi
 
@@ -375,7 +375,7 @@ Todos los entrevistados han adoptado herramientas digitales en su metodología d
 
 Las herramientas digitales usadas son las siguientes:
 
-![grafo1.png](./assets/img/chapter-II/grafo1.png)
+![grafo1.png]( grafo1.png)
 
 - Excel para la gestión de calificaciones y asistencias (100% de los entrevistados).
 - Dispositivos móviles y laptops para flexibilidad y acceso a recursos (100%).
@@ -389,7 +389,7 @@ Simplificación y optimización de la administración escolar: Un deseo común e
 
 **Desafíos Actuales**
 
-![grafo2.png](./assets/img/chapter-II/grafo2.png)
+![grafo2.png]( grafo2.png)
 
 - Manejo del volumen de datos de estudiantes y actualización en tiempo real: La necesidad de sistemas que permitan una gestión eficiente y confidencial de la información de los estudiantes es un desafío destacado (67%).
 - Integración de herramientas en el aula: La transición de registros manuales a sistemas digitales, y la inclusión de dispositivos como laptops o tablets en el aula de manera permanente, se ve como un reto importante (33%).
@@ -398,18 +398,18 @@ Simplificación y optimización de la administración escolar: Un deseo común e
 
 Las entrevistas realizadas al equipo administrativo de instituciones educativas revelan una clara visión hacia la integración y la optimización de la gestión educativa mediante el uso de tecnologías digitales.
 
-![grafo3.png](./assets/img/chapter-II/grafo3.png)
+![grafo3.png]( grafo3.png)
 
 - Libros Digitales, Excel para Gestión, Dispositivos Móviles, y Redes Sociales para Comunicación tienen una mención del 100%, lo que indica su adopción universal entre los entrevistados.
 - Proyectores Multimedia y Marcadores Electrónicos se mencionan en dos tercios de las entrevistas, sugiriendo una adopción significativa.
 - Cámaras de Video y Software de Gestión se mencionan en un tercio de las entrevistas, indicando una adopción más limitada o específica.
 
-![grafo4.png](./assets/img/chapter-II/grafo4.png)
+![grafo4.png]( grafo4.png)
 
 - Gestión de Asistencia, Inventario Manual de Útiles, y Supervisión de Infraestructura son desafíos destacados por dos tercios de los entrevistados, resaltando áreas claves para mejoras tecnológicas.
 - Gestión de Horarios y Seguimiento, Control de Inventario y Aulas son mencionados por un tercio, lo que muestra otros retos importantes, aunque con una mención menos frecuente.
 
-![grafo5.png](./assets/img/chapter-II/grafo5.png)
+![grafo5.png]( grafo5.png)
 
 - Gestión Integrada del Estudiante: 100% de los entrevistados subrayaron la necesidad de una herramienta que centralice la información académica relevante, lo que sugiere una demanda universal de soluciones integradas de gestión del estudiante.
 - Interactividad y Comunicación Eficiente: 67% de los entrevistados enfatizaron la importancia de la interactividad y la comunicación eficiente a través de tecnología digital.
@@ -440,11 +440,11 @@ Para poder conseguir una comprensión más completa de nuestra audiencia, hemos 
 
 **Segmento 1: Profesores**
 
-![personap.png](./assets/img/chapter-II/personap.png)
+![personap.png]( personap.png)
 
 **Segmento 2: Equipo Administrativo**
 
-![personaa.png](./assets/img/chapter-II/personaa.png)
+![personaa.png]( personaa.png)
 
 ### 2.3.2. User Task Matrix
 <html>
@@ -542,11 +542,11 @@ En esta seccion, presentamos dos User Journey Maps que representan las experienc
 
 **Juan Quispe**
 
-![journeyp.png](./assets/img/chapter-II/journeyp.png)
+![journeyp.png]( journeyp.png)
 
 **Ana Garcia**
 
-![journeya.png](./assets/img/chapter-II/journeya.png)
+![journeya.png]( journeya.png)
 
 
 ### 2.3.4. Empathy Mapping
@@ -564,12 +564,12 @@ En esta seccion, presentamos dos User Journey Maps que representan las experienc
 En esta sección, presentamos los "As-Is Scenario Maps" para dos User Personas.
 
 **Segmento 1:**
-![as-is1.png](./assets/img/chapter-II/as-is1.png)
+![as-is1.png]( as-is1.png)
 
 
 **Segmento 2:**
 
-![as-is2.png](./assets/img/chapter-II/as-is2.png)
+![as-is2.png]( as-is2.png)
 
 
 ## 2.4. Ubiquitous Language.
