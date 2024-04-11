@@ -85,24 +85,24 @@ En la landing page, se ha tratado de minimizar el uso de iconos demasiado llamat
 
 <meta charset="UTF-8">
 
-`    `<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-`    `<meta name="description"
+<meta name="description"
 
-`        `content="Application that seeks to simplify and centralize both academic and administrative management tasks.">
+content="Application that seeks to simplify and centralize both academic and administrative management tasks.">
 
-`    `<meta name="keywords" content="Rocket, RocketOrganize, Rocket Organize, Rocket App, Rocket Web">
+<meta name="keywords" content="Rocket, RocketOrganize, Rocket Organize, Rocket App, Rocket Web">
 
-`    `<meta name="author" content="Rocket">
+<meta name="author" content="Rocket">
 
-`    `<meta name="lang" content="en-EN" />
+<meta name="lang" content="en-EN" />
 
-`    `<meta name="organization" content="Rocket" />
+<meta name="organization" content="Rocket" />
 
-`    `<meta name="copyright" content="Rocket©">
+<meta name="copyright" content="Rocket©">
 
 
-` 	`4.2.4. Searching Systems. 
+### *4.2.4. Searching Systems.* 
 
 En cuanto a nuestro sistema de búsquedas este será uno minimalista que permitirá al usuario poder mostrar todas las coincidencias dependiendo de lo que el usuario ponga en el input.
 
