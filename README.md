@@ -2332,11 +2332,11 @@ La administración y estructuración de las múltiples modificaciones se realiza
 
 Entrar a Netlify y presionar la opción de “Import an existing project”
 
-![ref1]
+![Aspose Words 55e46a00-9da6-4034-9085-3c0e60afc260 001](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-report/assets/165521937/6857a53e-bcb5-4f8d-b6b7-2ca4fe2da0a4)]
 
 Después seleccionar la opcion de “Deploy con github”
 
-![ref2]
+![Aspose Words 55e46a00-9da6-4034-9085-3c0e60afc260 002](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-report/assets/165521937/62d98acb-f101-440c-8ff6-c3c5fbff5a8e)]
 
 Tras haber hecho eso tenemos que seleccionar nuestra organización y dentro de ella buscar el repositorio del proyecto que deseamos subir a producción
 
