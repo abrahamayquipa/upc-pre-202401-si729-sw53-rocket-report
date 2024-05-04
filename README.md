@@ -2219,4 +2219,489 @@ Este diagrama no solo define la estructura de almacenamiento de datos sino que t
 [ref1]: assets/Aspose.Words.d258ca98-d065-4b00-bfb8-96b5633dab58.009.png
 [ref2]: assets/Aspose.Words.d258ca98-d065-4b00-bfb8-96b5633dab58.010.png
 
+## **Capítulo V: Product Implementation, Validation & Deployment**
+
+### **5.1. Software Configuration Management.**
+
+#### **5.1.1. Software Development Environment Configuration.**
+
+A continuación, presentaremos los programas de software que hemos utilizado en el desarrollo de nuestro proyecto.
+
+**Project Management**
+
+- **Whatsapp:** <https://web.whatsapp.com/>
+
+  Se utilizó la plataforma de WhatsApp para organizar las tareas del equipo y proporcionar apoyo mutuo durante el trabajo.
+
+**Product UX/UI Design**
+
+- **Miro:** <https://miro.com/es/>
+
+  Empleamos Miro para desarrollar el Lean UX Canvas.
+
+- **Uxpressia:** <https://uxpressia.com/>
+
+  Utilizamos Uxpressia para crear User Personas, Empathy maps y Journey maps.
+
+- **Figma: <https://www.figma.com>**
+
+  Figma fue nuestra herramienta principal para diseñar wireframes, wireflows, mockups del landing page y para la creación de prototipos de aplicaciones web.
+
+- **LucidChart:** <https://www.lucidchart.com/pages/>
+
+  Para crear los Impact maps
+
+**Software Development**
+
+
+
+
+- **Landing Page:** Para la creación de nuestra página de inicio, hemos empleado HTML5, CSS y Javascript.
+
+**Software Testing**
+
+Hemos realizado pruebas de software en el landing page y la aplicación web utilizando las herramientas de desarrollo de los navegadores web como Google Chrome y Brave.
+
+**IDE's de desarrollo**
+
+- **Webstorm: <https://www.jetbrains.com/webstorm/>**
+
+  Utilizamos Webstorm, un IDE centrado en el desarrollo frontend, por su variedad de herramientas que agilizan el proceso de desarrollo.
+
+**Software Deployment**
+
+- **Github Pages:** <https://pages.github.com/>
+
+  Utilizamos Github Pages para desplegar nuestro landing page, vinculando el repositorio de GitHub para que se encargue automáticamente del despliegue.
+
+**Software Documentation**
+
+- **Google Docs: <https://docs.google.com/document/u/0/>**
+
+  Esta plataforma fue utilizada para enviar el progreso de las tareas asignadas. Semanalmente se enviaban las asignaciones de cada integrante para el informe final.
+
+
+
+
+- **Github: <https://github.com/>**
+
+  Utilizamos GitHub para la documentación del proyecto y el landing page, aprovechando su capacidad de desarrollo colaborativo y su registro de commits para demostrar la contribución de cada miembro.
+
+
+
+
+- **Visual Paradigm:** Utilizamos Visual Paradigm para crear diagramas C4 de nuestro proyecto.
+
+
+
+
+- **Vertabelo:** <https://vertabelo.com/>
+
+  Vertabelo fue utilizado para diseñar la estructura de nuestra base de datos, siendo una aplicación web colaborativa.
+
+#### **5.1.2. Source Code Management**
+
+La administración y estructuración de las múltiples modificaciones se realizaron mediante la creación de un repositorio en GitHub para el proyecto. Nuestra organización se estructuró de la siguiente manera:
+
+**Organización:**
+
+<https://github.com/orgs/upc-pre-202401-si729-sw53-rocket/repositories>
+
+**LandinPage:**
+
+<https://upc-pre-202401-si729-sw53-rocket-land.netlify.app>
+
+**Ramas principales:**
+
+**Rama “main”:** En esta rama se almacenan las versiones oficiales de nuestro repositorio para pasarlas a producción. Rama “develop”: Esta rama se utilizará como punto de integración para las ramas de “feature”. Una vez que el  “head” sea estable y el equipo lo considere listo para el lanzamiento, se fusionará con la rama “release”.
+
+**Ramas auxiliares:**
+
+- **Rama “release”:** La rama “release” se emplea para la preparación del lanzamiento de una nueva versión en la rama “main” ayudando a controlar las versiones de código. Aquí se pueden solucionar errores menores y preparar los datos para la versión. Esta rama permitirá liberar a la rama “develop” de est as tareas preparatorias y evita demoras en el desarrollo mientras se prepara para el lanzamiento. 
+- **Rama “feature”:** En las ramas “feature” se desarrollan las características generales que se integrarán en la rama “develop”. Estas características son aquellas funcionalidades solicitadas por los usuarios tanto en la página de inicio como en la aplicación web. Por ejemplo, la rama feature/navbar.
+- **Rama “hotfix”:** Esta rama se utiliza para corregir urgentemente errores en la última versión de la rama “main” que no pueden esperar hasta el próximo lanzamiento para ser solucionados.
+
+#### **5.1.3. Source Code Style Guide & Conventions**
+
+- Utilizaremos el lenguaje de etiquetas HTML para el desarrollo principal de nuestra Landing page.
+- Utilizaremos el lenguaje CSS, que nos permitirá realizar los estilos de la estructura de nuestra Landing Page
+- Implementaremos el lenguaje de JavaScript para brindar las funcionalidades a nuestra Landing page. 
+- Utilizaremos el lenguaje Gherkin que se usará para realizar los diseños de prueba de cada historia de usuario contando con su estructura básica. 
+
+#### **5.1.4. Software Deployment Configuration.**
+
+Entrar a Netlify y presionar la opción de “Import an existing project”
+
+![ref1]
+
+Después seleccionar la opcion de “Deploy con github”
+
+![ref2]
+
+Tras haber hecho eso tenemos que seleccionar nuestra organización y dentro de ella buscar el repositorio del proyecto que deseamos subir a producción
+
+Para finalmente agregar la data necesaria para el despliegue
+
+![ref3]
+
+Y final solo presionar el botón con el nombre de proyecto a desplegar
+
+\- Link de la Landing page: <https://upc-pre-202401-si729-sw53-rocket-land.netlify.app>
+
+### **5.2. Landing Page, Services & Applications Implementation.**
+
+#### **5.2.1. Sprint**
+
+#### **5.2.1.1. Sprint Planning 1**
+
+A continuación, se mostrará el primer sprint planning, en el cual se exhibirán las pruebas de planificación e implementación del landing page. Además, de los progresos del proyecto y los insights sobre la colaboración del equipo utilizando Github.
+
+|Sprint #|Sprint 1|
+| :- | :- |
+|Sprint Planning Background||
+|Date|12 de abril del 2023|
+|Time|11:55 horas (GMT -5)|
+|Location|Modalidad remota por Whatssap|
+|Prepared By|FiveStars|
+|Attendees (to planning meeting)|Todos los miembros del grupo FiveStars|
+|Sprint n – 1 Review Summary|Dado que se trata del primer sprint, no hay un review summary de un sprint anterior.|
+|Sprint n – 1 Retrospective Summary|Dado que se trata del primer sprint, no hay un retrospective summary de un sprint anterior.|
+|Sprint Goal & User Stories||
+|Sprint 1 Goal|<p>En el presente sprint, nuestro objetivo es desarrollar nuestro landing page. Por ello, se discutió el contenido textual y el diseño previamente elaborado en Figma para el landing. Al concluir este sprint, se espera que la página esté publicada en Github Pages, permitiendo que cualquier usuario pueda visitarla mediante el enlace proporcionado.</p><p></p>|
+|Sprint 1 Velocity|4|
+|Sum of Story Points|4|
+
+#### **5.2.1.2. Sprint Backlog 1**
+
+En esta sección se presentan los tasks realizados durante el actual Sprint.
+
+**Trello: <https://trello.com/b/fHKD9Uys/product-backlog>**
+
+![ref4]
+
+<table><tr><th colspan="2" valign="top">Sprint #</th><th colspan="6" valign="top">Sprint 1</th></tr>
+<tr><td colspan="2" valign="top">User story</td><td colspan="6" valign="top">Work Item / Task</td></tr>
+<tr><td valign="top">Id </td><td valign="top">Title </td><td valign="top">Id </td><td valign="top">Title </td><td valign="top">Description </td><td valign="top">Estimation (Hours)</td><td valign="top">Assigned To</td><td valign="top">Status (To-do InProcess ToReview Done)</td></tr>
+<tr><td rowspan="6" valign="top">E5-US20</td><td rowspan="6" valign="top">Características del Producto</td><td>T1</td><td valign="top">Navbar </td><td valign="top">Hacer el navbar</td><td>1</td><td>Mateo</td><td valign="top">Done</td></tr>
+<tr><td>T2</td><td valign="top">Navbar Responsive</td><td valign="top">Hacer el navbar responsive</td><td>0\.5</td><td></td><td valign="top">Done</td></tr>
+<tr><td>T3</td><td valign="top">Home</td><td valign="top">Hacer el Home </td><td>1</td><td>Mateo</td><td valign="top">Done</td></tr>
+<tr><td>T4</td><td valign="top"><p>Home</p><p>Responsive</p></td><td valign="top">Hacer el Home responsive</td><td>0\.5</td><td></td><td valign="top">Done</td></tr>
+<tr><td>T5</td><td valign="top"><p>Características del Producto</p><p></p></td><td valign="top">Hacer el article de características del producto</td><td>0\.5</td><td></td><td valign="top">Done</td></tr>
+<tr><td>T6</td><td valign="top">Article Responsive</td><td valign="top">Hacer el article de características del producto responsive</td><td>1</td><td></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E5-US21</td><td rowspan="2" valign="top">Confirmación de la Confiabilidad a través de Reseñas</td><td rowspan="2">T7</td><td valign="top">Article Reviews</td><td valign="top">Hacer el article de reviews</td><td>0\.5</td><td></td><td valign="top">Done</td></tr>
+<tr><td valign="top"><p>Article Reviews</p><p>Responsive</p></td><td valign="top">Hacer el article de reviews responsive</td><td>0\.5</td><td></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E5-US22</td><td rowspan="2" valign="top">Evaluación de Planes y Precios</td><td>T8</td><td valign="top"><p>Article </p><p>pricing</p></td><td valign="top">Hacer el article de pricing</td><td>0\.5</td><td>Belen</td><td valign="top">Done</td></tr>
+<tr><td>T9</td><td valign="top"><p>Article</p><p>Pricing</p><p>Responsive</p></td><td valign="top">Hacer el article de pricing responsive</td><td>0\.5</td><td>Belen</td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E5-US23</td><td rowspan="2" valign="top">Facilidad de Contacto con la Empresa</td><td>T10</td><td valign="top">Article Contact</td><td valign="top">Hacer el article de contact</td><td>0\.5</td><td></td><td valign="top">Done</td></tr>
+<tr><td>T11</td><td valign="top"><p>Article Contact</p><p>Responsive</p><p></p></td><td valign="top">Hacer el article de contact responsive</td><td>0\.5</td><td></td><td valign="top">Done</td></tr>
+<tr><td valign="top">E5-US24</td><td valign="top">Navegación Intuitiva en la Landing Page</td><td>T12</td><td valign="top">UI Elements</td><td valign="top">Optimización de elementos UI de la landing page</td><td>1</td><td></td><td valign="top">Done</td></tr>
+<tr><td valign="top">E5-US25</td><td valign="top">Selección de Idioma en la Landing Page</td><td>T13</td><td valign="top">Language</td><td valign="top">Cambiar algunos detalles de la web de español a ingles</td><td>1</td><td></td><td valign="top">Done</td></tr>
+</table>
+
+
+
+
+
+
+5\.2.1.3. Development Evidence for Sprint Review.
+
+
+
+<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id </th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Committed on (Date)</th></tr>
+<tr><td rowspan="8" valign="top">RocketNotes-Landing-page</td><td rowspan="8" valign="top">Main</td><td valign="top">01f7dd71c6e502def67d2d06307ce983f8f66f96</td><td valign="top">Initial commit</td><td valign="top">-</td><td valign="top">03/04/2024</td></tr>
+<tr><td valign="top">137b258a5b503a9852d504989259caded17193c8</td><td valign="top">Added images for landing page</td><td valign="top">-</td><td valign="top">03/04/2024</td></tr>
+<tr><td valign="top">7cb8081a93639e0f115f37dad8962843884d5be5</td><td valign="top">Added logo for landing page</td><td valign="top">-</td><td valign="top">03/04/2024</td></tr>
+<tr><td valign="top">bceec27e93267b3572aebab8a4428fae3acb6828</td><td valign="top">Added landing page index.html structure</td><td valign="top">-</td><td valign="top">03/04/2024</td></tr>
+<tr><td valign="top">297e80a10014e7f4e327e893047884102c71dd76</td><td valign="top">Added landing page styles.css</td><td valign="top">-</td><td valign="top">03/04/2024</td></tr>
+<tr><td valign="top">38f7596295848c750b7e2c990433855280fbe13b</td><td valign="top">Added landing page main.js</td><td valign="top">-</td><td valign="top">03/04/2024</td></tr>
+<tr><td valign="top">2f8d6526777f29392583d16185770172e55cfa3b</td><td valign="top">update</td><td valign="top">-</td><td valign="top">03/04/2024</td></tr>
+<tr><td valign="top">64ddec6293d5839ad0f0416a7d1ee1cf9f7dd21f</td><td valign="top">update index.html</td><td valign="top">-</td><td valign="top">03/04/2024</td></tr>
+</table>
+
+
+
+#### **5.2.1.4. Testing Suite Evidence for Sprint Review.**
+
+**Directo en markdown:**
+
+Durante este sprint, se han integrado las pruebas de aceptación utilizando Gherkin. El repositorio que contiene estas pruebas están en el siguiente enlace: [https://github.com/RocketNotes-Open-Source-SW57-Grupo-3/RocketNotes-acceptance-tests](*https://github.com/RocketNotes-Open-Source-SW57-Grupo-3/RocketNotes-acceptance-tests*)
+
+<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id</th><th valign="top">Commit Message</th><th valign="top">Commited on (Date)</th></tr>
+
+<tr><td rowspan="7" valign="top">RocketNotes-acceptance-tests</td><td rowspan="7" valign="top">main</td><td valign="top">16fb4e50d6382ae6fc3d88de54610f7861915566</td><td valign="top">initial commit</td><td valign="top">14/04/2024</td></tr>
+
+<tr><td valign="top">637809787379bd475704c9e4b2a22c71b967b8b8</td><td valign="top">feat: epic 1 added</td><td valign="top">14/04/2024</td></tr>
+
+<tr><td valign="top">3a4e17f1c60d865e91e90b59409299c2f35a3354</td><td valign="top">feat: epic 2 added</td><td valign="top">14/04/2024</td></tr>
+
+<tr><td valign="top">56888135b0d151a386f8709b38fea7039337baea</td><td valign="top">feat: epic 3 added</td><td valign="top">14/04/2024</td></tr>
+
+<tr><td valign="top">89e55ba1d13bd793a55b16e7c5780ddb5f59c446</td><td valign="top">feat: epic 4 added</td><td valign="top">14/04/2024</td></tr>
+
+<tr><td valign="top">02af9c233f465590e1aac985b58a6f5b410b1dfb</td><td valign="top">feat: epic 5 added</td><td valign="top">14/04/2024</td></tr>
+
+</table>
+
+#### **5.2.1.5. Execution Evidence for Sprint Review.**
+
+A continuación se mostrarán capturas de evidencia de lo logrado para el primer sprint, que fue crear y desplegar la landing page con las secciones más importantes.
+
+Primero el banner de presentación de nuestro servicio, diseñado en inglés y completamente responsive. 
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.005.png)
+
+Luego la sección donde mostramos características de producto y algunas funciones.
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.006.png)
+
+Una sección de comentarios de clientes. Esto ayudará a generar confianza en los nuevos usuarios.
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.007.png)
+
+Luego tenemos el apartado de precios, con grandes botones llamativos e información concisa de los beneficios de cada plan.
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.008.png)
+
+Por último, la sección de contacto con nuestra empresa. Con información concisa e intuitiva para el usuario.
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.009.png)
+
+#### **5.2.1.6. Services Documentation Evidence for Sprint Review.**
+
+Para la elaboración del sprint 1, se ha desarrollado únicamente el landing page, por lo cual no se emplea el desarrollo de web services o web applications.
+
+#### **5.2.1.7. Software Deployment Evidence for Sprint Review.**
+
+Durante el primer sprint, desarrollamos la landing page del proyecto. El despliegue de esta página lo llevó a cabo uno de nuestros integrantes, ya que el proceso no tomaba más de 5 minutos. Utilizamos la plataforma de Netlify para el despliegue, lo cual implicó crear una cuenta e iniciar sesión en dicha plataforma. Antes de proceder con el despliegue, realizamos varias pruebas en la rama "develop" para asegurarnos de que no surgieran problemas al desplegar la rama "main".
+
+**Pasos para este sprint:**
+
+1. Creación de cuenta en netlify
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.010.png)
+
+2. Selección de la opción de “add new website” para elegir el proyecto que queremos deplegar
+
+   ![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.011.png)
+
+
+
+
+3. Finalmente, elegimos nuestra rama a desplegar y hacemos click en “Desploy”
+
+   ![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.012.png)
+
+#### **5.2.1.8. Team Collaboration Insights during Sprint.**
+
+Durante este sprint para proteger la rama “main” creamos una rama “develop” de la que cada integrante de nuestro grupo creó su propia sub-rama “feature“ para subir un capítulo del reporte siguiendo las convenciones antes señaladas(conventional commit y git flow).
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.013.png)
+
+![ref5]
+
+#### **5.2.2. Sprint**
+
+#### **5.2.2.1. Sprint Planning 2**
+
+A continuación, se mostrará el segundo sprint planning, en el cual se exhibirán las pruebas de planificación e implementación del landing page. Además, de los progresos del proyecto y los insights sobre la colaboración del equipo utilizando Github.
+
+|Sprint #|Sprint 1|
+| :- | :- |
+|Sprint Planning Background||
+|Date|12 de abril del 2023|
+|Time|11:55 horas (GMT -5)|
+|Location|Modalidad remota|
+|Prepared By|Rocket|
+|Attendees (to planning meeting)|Todos los miembros del grupo Rocket|
+|Sprint n – 1 Review Summary|Dado que se trata del primer sprint, no hay un review summary de un sprint anterior.|
+|Sprint n – 1 Retrospective Summary|Dado que se trata del primer sprint, no hay un retrospective summary de un sprint anterior.|
+|Sprint Goal & User Stories||
+|Sprint 1 Goal|En este Sprint se planea desarrollar el landing page con HTML y CSS3. Previamente, el landing page se diseñó en Figma. El grupo discutió cómo diseñar el landing, implementación de imágenes y todo lo referente a la interfaz. Al finalizar este sprint, el landing page estará desplegado en Netlify y entonces cualquier usuario podrá acceder al landing a través del link.|
+|Sprint 1 Velocity|4|
+|Sum of Story Points|4|
+
+#### **5.2.2.2. Sprint Backlog 2**
+
+En esta sección se presentan los tasks realizados durante el actual Sprint.
+
+![ref4]
+
+**Trello: [Sprint Backlog 2 | Trello**](https://trello.com/b/6qI1uR3n/sprint-backlog-2)**
+
+<table><tr><th colspan="2" valign="top">Sprint #</th><th colspan="6" valign="top">Sprint 1</th></tr>
+<tr><td colspan="2" valign="top">User story</td><td colspan="6" valign="top">Work Item / Task</td></tr>
+<tr><td valign="top">Id </td><td valign="top">Title</td><td valign="top">Id </td><td valign="top">Title </td><td valign="top">Description </td><td valign="top">Estimation (Hours)</td><td valign="top">Assigned To</td><td valign="top">Status (To-do InProcess ToReview Done)</td></tr>
+<tr><td rowspan="3" valign="top">E1-US03</td><td rowspan="3" valign="top">Registro de asistencias </td><td rowspan="3">T1</td><td rowspan="3" valign="top">Tomar asistencia de un aula</td><td rowspan="3">Implementar la funcionalidad de registrar la asistencia</td><td rowspan="3">3</td><td rowspan="3">Abraham</td><td rowspan="3" valign="top">Done</td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td rowspan="5" valign="top">E1-US01</td><td rowspan="5" valign="top">` `Gestión del aforo de las aulas</td><td rowspan="2">T1</td><td rowspan="2">Crear un salón con capacidad</td><td rowspan="2">Implementar la creación de aulas con capacidades personalizables</td><td rowspan="2">3</td><td rowspan="2">José</td><td rowspan="2" valign="top">Done</td><td></td></tr>
+<tr><td></td></tr>
+<tr><td>T2</td><td>Agregar estudiantes a la sección</td><td>Agregar estudiantes a una sección en específica</td><td>2</td><td>Belen</td><td valign="top">Done</td><td></td></tr>
+<tr><td rowspan="2">T3</td><td rowspan="2" valign="top">Crear un curso (Dentro de un salón)</td><td rowspan="2">Funcionalidad de crear un curso para las clases</td><td rowspan="2">2</td><td rowspan="2">Ariana</td><td rowspan="2" valign="top">Done</td><td></td></tr>
+<tr><td></td></tr>
+<tr><td rowspan="2" valign="top">E3-US12</td><td rowspan="2" valign="top">Registro y Gestión del Mantenimiento de la Infraestructura</td><td>T1</td><td valign="top">Mantenimiento de instalaciones</td><td>Visualizar los estados de las instalaciones</td><td>3</td><td>Mateo</td><td valign="top">Done</td><td></td></tr>
+<tr><td>T2</td><td valign="top">Mantenimiento del equipo escolar</td><td>Visualizar el mantenimiento de equipos escolares</td><td>3</td><td>Mateo</td><td valign="top">Done</td><td></td></tr>
+<tr><td valign="top">E1-US04</td><td valign="top">` `Gestión de las notas por aula</td><td>T2</td><td valign="top">Sube las notas de un aula</td><td>Registrar y añadir las notas al aula</td><td>2</td><td>Abraham</td><td valign="top">Done</td><td></td></tr>
+<tr><td rowspan="2" valign="top">E4-US03</td><td rowspan="2" valign="top">Interfaz de Usuario Eficiente y Accesible</td><td>T1</td><td valign="top">Pantallas de registro e inicio de sesión</td><td>Diseñar e implementar el registro e inicio de sesión del usuario</td><td>1</td><td>José</td><td valign="top">Done</td><td></td></tr>
+<tr><td>T2</td><td valign="top">Pantalla principal del dashboard</td><td>Diseñar y mostrar el dashboard para el usuario</td><td>2</td><td>Ariana</td><td valign="top">Done</td><td></td></tr>
+</table>
+
+#### **5.2.2.3. Development Evidence for Sprint Review.**
+
+<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id </th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Committed on (Date)</th></tr>
+<tr><td rowspan="8" valign="top">rocket-frontend</td><td rowspan="8" valign="top">Main</td><td valign="top">01f7dd71c6e502def67d2d06307ce983f8f66f96</td><td valign="top">[fix: resolve an endpoint of classrooms](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/3d65571ebc74d110d91740d4d8bae9430d5a91a5)</td><td valign="top">-</td><td valign="top">03/05/2024</td></tr>
+<tr><td valign="top">137b258a5b503a9852d504989259caded17193c8</td><td valign="top">[build: add the url of the main api](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/396e80294dfec987787ccef377b86275b665bef6)</td><td valign="top">-</td><td valign="top">03/05/2024</td></tr>
+<tr><td valign="top">7cb8081a93639e0f115f37dad8962843884d5be5</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/1245caa15e1e7746d666f90c3ad2433b9342452f) [#16](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/pull/16) [from upc-pre-202401-si729-sw53-rocket/develop](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/1245caa15e1e7746d666f90c3ad2433b9342452f)</td><td valign="top">-</td><td valign="top">03/05/2024</td></tr>
+<tr><td valign="top">bceec27e93267b3572aebab8a4428fae3acb6828</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/ed82507419bf4548a47cec02f1de73897557911b) [#15](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/pull/15) [from upc-pre-202401-si729-sw53-rocket/feature/students-list](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/ed82507419bf4548a47cec02f1de73897557911b)</td><td valign="top">-</td><td valign="top">03/05/2024</td></tr>
+<tr><td valign="top">297e80a10014e7f4e327e893047884102c71dd76</td><td valign="top">[feat: add the student list page](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/d2e31f211257dfa15a09e84e271873048cb19e51)</td><td valign="top">-</td><td valign="top">01/05/2024</td></tr>
+<tr><td valign="top">38f7596295848c750b7e2c990433855280fbe13b</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/890ca7525f77156138c0b71b364b2881d32b92a4) [#14](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/pull/14) [from upc-pre-202401-si729-sw53-rocket/develop](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/890ca7525f77156138c0b71b364b2881d32b92a4)</td><td valign="top">-</td><td valign="top">27/04/2024</td></tr>
+<tr><td valign="top">2f8d6526777f29392583d16185770172e55cfa3b</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/8e5e55dc931c11e63733474854b782bc30627ab7) [#13](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/pull/13) [from upc-pre-202401-si729-sw53-rocket/feature/classrooms](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/8e5e55dc931c11e63733474854b782bc30627ab7)</td><td valign="top">-</td><td valign="top">27/04/2024</td></tr>
+<tr><td valign="top">64ddec6293d5839ad0f0416a7d1ee1cf9f7dd21f</td><td valign="top">[feat: add the classroom page](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/95db95b5da5b5b2c21518ff1424fba15c140fdbb)</td><td valign="top">-</td><td valign="top">27/04/2024</td></tr>
+<tr><td rowspan="5" valign="top"></td><td rowspan="5" valign="top"></td><td valign="top">01f7dd71c6e502def67d2d06307ce983f8f66f96</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/a23bfb955aaa9de89512d1679f32f7b12edfb49c) [#12](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/pull/12) [from upc-pre-202401-si729-sw53-rocket/develop](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/a23bfb955aaa9de89512d1679f32f7b12edfb49c)</td><td valign="top">-</td><td valign="top">20/04/2024</td></tr>
+<tr><td valign="top">137b258a5b503a9852d504989259caded17193c8</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/7de600a145238e44135434a1aeab3568ee701056) [#11](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/pull/11) [from upc-pre-202401-si729-sw53-rocket/feature/maintenance](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/7de600a145238e44135434a1aeab3568ee701056)</td><td valign="top">-</td><td valign="top">20/04/2024</td></tr>
+<tr><td valign="top">7cb8081a93639e0f115f37dad8962843884d5be5</td><td valign="top">[feat: add the maintenance page](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/fd7f349727cf693a83a256dc10118f2744380fd2)</td><td valign="top">-</td><td valign="top">20/04/2024</td></tr>
+<tr><td valign="top">bceec27e93267b3572aebab8a4428fae3acb6828</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/581de81cbb8fe5ccd3f306ab955115c43f399fdb) [#10](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/pull/10) [from upc-pre-202401-si729-sw53-rocket/feature/generate-report](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/581de81cbb8fe5ccd3f306ab955115c43f399fdb)</td><td valign="top">-</td><td valign="top">20/04/2024</td></tr>
+<tr><td valign="top">297e80a10014e7f4e327e893047884102c71dd76</td><td valign="top">[feat: add the infrastructure report page](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend/commit/2cc2d50801592ccbd90b53d6e6d3c2eecb18665b)</td><td valign="top">-</td><td valign="top">20/04/2024</td></tr>
+</table>
+
+#### **5.2.2.4. Testing Suite Evidence for Sprint Review.**
+
+En el alcance del sprint 2 se ha desarrollado el frontend de la aplicación web por lo que no se evidencia testing.
+
+#### **5.2.2.5. Execution Evidence for Sprint Review.**
+
+En este sprint logramos como primera fase de nuestro producto final, desarrollar nuestra aplicación web usando Vue y Prime vue, en conjunto con una API hecha con JSON server. 
+
+Muestra de todas vistas programadas en Vue para este sprint:
+
+Pantalla de Login:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.015.png)
+
+Pantalla de Sign up:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.016.png)
+
+Pantalla de reset your password:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.017.png)
+
+Pantalla de dashboard:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.018.png)
+
+Pantalla de facilities:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.019.png)
+
+Pantalla de classroom equiment:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.020.png)
+
+Pantalla de lista de estudiantes:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.021.png)
+
+Pantalla de lista de profesores:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.022.png)
+
+Pantalla de settings:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.023.png)
+
+Pantalla de help and center:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.024.png)
+
+Pantalla de Susbscriptions:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.025.png)
+
+Muestra de la respuesta de nuestra API hecha con JSON server:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.026.png)
+
+5\.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Para este sprint utilizamos los servicios básicos Http en conjunto con Json server que facilitó la construcción de nuestra fake api.
+
+Nuestras variable baseURL que apuntará al puerto 3000 y usaremos los siguientes endpoints:
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.027.png)
+
+#### **5.2.2.7. Software Deployment Evidence for Sprint Review.**
+
+Entrar a Netlify y presionar la opción de “Import an existing project”
+
+![ref6]
+
+Después seleccionar la opcion de “Deploy con github”
+
+![ref2]
+
+Tras haber hecho eso tenemos que seleccionar nuestra organización y dentro de ella buscar el repositorio del proyecto que deseamos subir a producción
+
+Para finalmente agregar la data necesaria para el despliegue
+
+![ref3]
+
+Y final solo presionar el botón con el nombre de proyecto a desplegar
+
+\- Link de la aplicación web:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://rocket-organize.netlify.app>
+
+5\.2.2.8. Team Collaboration Insights during Sprint.
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.029.png)
+
+![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.030.png)
+
+![ref5]
+
+Conclusiones
+
+- Realizar un producto de esta magnitud significó un desafío para todo el equipo debido a la alta competitividad en otros sectores. Sin embargo, logramos hacer un producto destacable e interesante en la industria. Gracias a la landing page que captará la atención de gente interesada en ver nuestro producto, hay altas posibilidades de contactarnos para trabajar en equipo y así aumentar nuestra visibilidad en la industria. Por supuesto, para ello se investigó y analizó la competencia más destacable para nosotros y así ofrecer funciones interesantes o cuanto menos, prácticas para lograr destacarse y hacer un negocio rentable.
+
+
+
+
+- A lo largo de este proceso, hemos empleado técnicas avanzadas de mapeo de experiencia del usuario como son el As-is y To-be Scenario Mappings, así como User Journey Mapping, para profundizar en las necesidades y desafíos enfrentados por nuestros usuarios ideales. Estas herramientas han sido fundamentales para identificar y abordar puntos críticos, facilitando la iteración y mejora continua de plataformas de gestión escolar. Permitiéndonos diseñar soluciones más efectivas y centradas en el usuario, mejorando significativamente la interacción con las herramientas digitales en el ámbito educativo.
+
+
+
+
+- Para concluir, este proyecto de "RocketNotes" ha demostrado ser una amalgama de innovación, colaboración y compromiso, resultando en una herramienta significativamente transformadora para la gestión educativa. La aplicación no solo aborda los desafíos contemporáneos de las instituciones educativas mediante la automatización y optimización de procesos, sino que también empodera a profesores y administradores al simplificar las tareas administrativas y académicas. La validación a través de pruebas de usabilidad ha confirmado la eficacia de la interfaz y la experiencia del usuario, reflejando una mejora notable en la eficiencia y satisfacción de los usuarios finales. Este proyecto no solo ha cumplido con las expectativas establecidas, sino que ha sentado un precedente sobre cómo la tecnología aplicada inteligentemente puede revolucionar el entorno educativo, anticipando una adopción más amplia en futuras aplicaciones educativas.
+
+**Bibliografía**
+
+Smith, J., & Doe, J. "Enhancing Efficiency in Education through Learning Management Systems: A Case Study of the Blackboard System." Educational Technology Research and Development, vol. 65, no. 4, 2017, pp. 1023-1039. 
+
+**Anexos**
+
+**Anexo A: Videos de Exposiciones**
+
+**TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0>** 
+
+**TP:**
+
+[**https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)** 
+
+**Anexo B: C4 MODEL: [http://c4model.com**](http://c4model.com)**
+
+**Anexo C: LINK FIGMA: [https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1**](https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1)**
+
+**Anexo D: LINK LANDING PAGE: <https://upc-pre-202401-si729-sw53-rocket-land.netlify.app/>** 
+
+**Anexo E: LINK TRELLO: [https://trello.com/b/fHKD9Uys/product-backlog**](https://trello.com/b/fHKD9Uys/product-backlog)**
+
+**Anexo F:LINK LEAN UX CANVAS: [https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253**](https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253)**
+
+**LINK FIGMA: [https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1**](https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1)**
+
+[ref1]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.001.png
+[ref2]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.002.png
+[ref3]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.003.png
+[ref4]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.004.png
+[ref5]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.014.png
+[ref6]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.028.png
 
