@@ -1475,7 +1475,7 @@ A continuación, procedemos a mostrar los mock-up correspondientes al landing pa
 ![](assets/Aspose.Words.d258ca98-d065-4b00-bfb8-96b5633dab58.023.png)
 
 LINK LANDING PAGE:
-<https://rocketnotes-open-source-sw57-grupo-3.github.io/RocketNotes-landing-page/>
+<https://upc-pre-202401-si729-sw53-rocket-land.netlify.app/>
 
 ### **4.4. Web Applications UX/UI Design**
 
