@@ -1,5 +1,5 @@
 
-![Upc Logo](Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.001.png)
+![Upc Logo](assets/Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.001.png)
 
 **Universidad Peruana de Ciencias Aplicadas**
 
@@ -108,28 +108,28 @@ Visión: Convertirnos en el aliado indispensable para educadores y administrativ
 **1.1.2. Perfiles de integrantes del equipo**
 
 
-![](Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.002.jpeg)
+![](assets/Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.002.jpeg)
 
 ***Ayquipa Ubaldo Abraham Israel - U202218475***
 
 Soy estudiante de la carrera de ingeniería de software, actualmente cursando el 5to ciclo de carrera. Aunque soy fullstack developer, tengo más inclinación por el desarrollo frontend. Mi stack arranca con Next.js(Framework de React) + Typescript para el front y Node.js + Express.js + MongoDB para el back. Como todo buen programador, me considero un eterno estudiante, por lo que me encuentro en este momento estudiando Docker y Redis.
 
-***Mayurí Armas, Jose Carlo - U202011437![](Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.003.jpeg)***
+***Mayurí Armas, Jose Carlo - U202011437![](assets/Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.003.jpeg)***
 
 Mi nombre es Jose, tengo 20 años. Elegí esta carrera ya que desde pequeño me fascinaba la tecnología y los diseños tanto de app, web, etc. Además, considero que tengo buenas habilidades para trabajar en grupo. Entre mis principales habilidades se encuentra la capacidad de guardar información, la empatía, el ser resiliente y tengo conocimiento en los lenguajes de C++,C#, python,JS,Kotlin y en frameworks como vue y angular.
 
-***Vargas Revollé, Ariana - U200221A928![](Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.004.jpeg)***
+***Vargas Revollé, Ariana - U200221A928![](assets/Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.004.jpeg)***
 
 Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 5to ciclo. Me interesa el rubro de ciberseguridad y me gusta leer sobre nuevas tecnologías y su impacto en la vida de las personas. Me gusta trabajar en equipo y aprender de otras personas. Conocimientos en HTML, CSS, C++, Python, SQL y MongoDB, JavaScript y familiar con los ambientes de POO, Lean UX, Agile Frameworks y Máquinas Virtuales
 
 
-![](Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.005.jpeg)
+![](assets/Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.005.jpeg)
 
 ***Vilchez Rios, Mateo Alejandro - U202210059***
 
 Soy estudiante de la carrera de Ingeniería de Software cursando actualmente el 5to ciclo. Me considero una persona eficiente, disciplinada y responsable. Poseo conocimientos básicos en C++, Java y JavaScript. Manejo de Base de Datos relacionales. Me comprometo a brindar todo el apoyo necesario para cumplir con todos los requerimientos.
 
-***Ramos Rios, Belén del Rocio- U202216246![](Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.006.jpeg)***
+***Ramos Rios, Belén del Rocio- U202216246![](assets/Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.006.jpeg)***
 
 Actualmente estoy cursando el quinto ciclo de la carrera de Ingeniería de Software, etapa que ha reforzado mi sentido de responsabilidad y mi capacidad para colaborar eficazmente en equipo. Además de mis habilidades interpersonales, poseo conocimiento en lenguajes de programación como JavaScript (JS), C++, y SQL Estoy siempre en busca de nuevas oportunidades de aprendizaje que me permitan expandir mis conocimientos y contribuir de manera significativa en cualquier proyecto en el que participe
 
@@ -400,7 +400,7 @@ Sabremos que tenemos éxito cuando veamos que nuestros clientes se suscriben al 
 
 #### **1.2.2.4. Lean UX Canvas**
 
-![](Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.007.png)
+![](assets/Aspose.Words.509f7a58-73ed-4a47-bd4b-5a106a02c6de.007.png)
 
 LINK LEAN UX CANVAS: [**https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253**](https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253)
 
@@ -443,6 +443,8 @@ Aspectos psicográficos:
 - Valores: Importancia a la eficiencia, organización y optimización de procesos.
 - Intereses: Altamente interesados en sistemas y software que simplifiquen la gestión administrativa y académica, reduciendo la carga de trabajo manual y automatizando procesos rutinarios.
 - Comportamiento: El equipo administrativo busca optimizar procesos administrativos y la infraestructura educativa, valorando soluciones que les liberen tiempo para enfocarse en tareas estratégicas. Prefieren herramientas intuitivas, confiables y que faciliten la toma de decisiones a través de reportes detallados.
+
+
 
 ## **Capítulo II: Requirements Elicitation & Analysis**
 
