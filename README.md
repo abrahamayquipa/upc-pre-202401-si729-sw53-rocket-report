@@ -2638,7 +2638,8 @@ Entrar a Netlify y presionar la opción de “Import an existing project”
 
 Después seleccionar la opcion de “Deploy con github”
 
-![ref2]
+![Aspose Words 55e46a00-9da6-4034-9085-3c0e60afc260 002](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-report/assets/165521937/f845a9c9-968f-4374-b246-a886c62fb0bb)
+]
 
 Tras haber hecho eso tenemos que seleccionar nuestra organización y dentro de ella buscar el repositorio del proyecto que deseamos subir a producción
 
