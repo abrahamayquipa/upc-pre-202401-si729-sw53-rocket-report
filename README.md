@@ -23,7 +23,7 @@ Alex Humberto Sánchez Ponce
 |Ayquipa Ubaldo, Abraham Israel|U202218475|
 |Mayuri Armas, Jose Carlo |U2020111437|
 |Vilchez Rios, Mateo Alejandro |U202210059|
-|Ramos Rios, Belen del Rocio|U202216246|
+|Ramos Rios, Belén del Rocio|U202216246|
 |Vargas Revollé, Ariana|U20221A928|
 
 
