@@ -2651,7 +2651,7 @@ Y final solo presionar el botón con el nombre de proyecto a desplegar
 
 \- Link de la aplicación web:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://rocket-organize.netlify.app>
 
-5\.2.2.8. Team Collaboration Insights during Sprint.
+#### **5.2.2.8. Team Collaboration Insights during Sprint.**
 
 ![](assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.029.png)
 
@@ -2659,7 +2659,457 @@ Y final solo presionar el botón con el nombre de proyecto a desplegar
 
 ![ref5]
 
-Conclusiones
+### **5.2.3. Sprint**
+
+#### **5.2.3.1. Sprint Planning 3**
+
+A continuación, se mostrará el tercer sprint planning, en el cual se exhibirán la planificación e implementación de la sección backend del proyecto. Además, de los progresos y los insights sobre la colaboración del equipo utilizando Github.
+
+|Sprint #|Sprint 3|
+| - | - |
+|Sprint Planning Background||
+|Date|25 de mayo de 2024|
+|Time|11:55 horas (GMT -5)|
+|Location|Modalidad remota por Whatssap|
+|Prepared By|Team|
+|Attendees (to planning meeting)|Todos los miembros del equipo|
+|Sprint n – 1 Review Summary|Se analiza el backend y su conclusion|
+|Sprint n – 1 Retrospective Summary|Hay pantallas qué completar antes de poder realizar el backend|
+|Sprint Goal & User Stories||
+|Sprint 1 Goal|Se planea terminar de desarrollar el frontend de la aplicación y empezar con el proceso de construcción back-end con CRUD|
+|Sprint 1 Velocity|4|
+|Sum of Story Points|4|
+
+#### **5.2.3.2. Sprint Backlog 3**
+
+En esta sección se presentan los tasks realizados durante el actual Sprint.
+
+**Trello: <https://trello.com/b/fHKD9Uys/product-backlog>**
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.001.png)
+
+|**Id**|**Title**|**Description**|**Estimation (Hours)**|**Assigned To**|**Status**|
+| :-: | :-: | :-: | :-: | :-: | :-: |
+|E3-US05|Control del inventario de útiles escolares|Implementación de un sistema de gestión de inventario para los útiles escolares, incluyendo seguimiento y actualización.|8|Abraham|Done|
+|E1-US07|Exportación de Reportes de Rendimiento Estudiantil|Desarrollo de la funcionalidad de exportación de reportes de rendimiento estudiantil en formatos adecuados.|6|Jose|Done|
+|E1-US08|Seguimiento de progreso individual del estudiante|Creación de herramientas para monitorear y registrar el progreso individual de cada estudiante en la plataforma.|10|Ariana|Done|
+|E4-US09|Optimización de la Asignación de Horarios y Profesores|Mejora en la asignación de horarios y profesores para una distribución más eficiente y equitativa.|12|Abraham|Done|
+|E3-US10|Alertas de Indicadores de Rendimiento Bajo|Configuración de alertas automáticas para identificar y notificar indicadores de bajo rendimiento académico.|6|Mateo|Done|
+|E2-US11|Gestión del aforo de las instalaciones escolares|Implementación de herramientas para gestionar y controlar el aforo de las instalaciones escolares de manera efectiva.|8|Jose|Done|
+|E2-US13|Presupuestos para el Mantenimiento de la Infraestructura|Creación de presupuestos detallados para el mantenimiento óptimo de la infraestructura escolar.|10|Ariana|Done|
+|E2-US14|Gestión de la frecuencia con la que se realiza el mantenimiento de infraestructuras|Optimización de los cronogramas de mantenimiento para una gestión eficiente de recursos.|6|Belen|Done|
+|E2-US15|Programación de mantenimiento preventivo de la infraestructura|Planificación y configuración de rutinas de mantenimiento preventivo para la infraestructura escolar.|8|Jose|Done|
+|E3-US16|Registro y Mantenimiento del Equipo Escolar|Mantenimiento de un registro actualizado y detallado del equipo escolar, incluyendo inventario y estado de cada ítem.|10|Jose|Done|
+|E3-US17|Presupuestos para el mantenimiento del equipo escolar|Desarrollo de presupuestos específicos para el mantenimiento adecuado del equipo y material escolar.|8|Mateo|Done|
+|E3-US18|Gestión de la frecuencia con la que se realiza mantenimiento del equipo|Revisión y ajuste de la frecuencia de mantenimiento del equipo según las necesidades y recursos disponibles.|6|Abraham|Done|
+|E3-US19|Programación de mantenimiento preventivo del equipo|Planificación y establecimiento de rutinas de mantenimiento preventivo para prolongar la vida útil del equipo.|8|Mateo|Done|
+|TS01|API para gestionar estudiantes|Desarrollo de una API robusta para gestionar información de estudiantes, incluyendo CRUD y autenticación.|12|Abraham|Done|
+|TS02|Endpoint para gestionar profesores|Implementación de una API completa para gestionar información y roles de profesores en el sistema.|12|Abraham|Done|
+|TS03|Endpoint para programar mantenimientos|Creación de una API para la programación y seguimiento de actividades de mantenimiento en la infraestructura escolar.|15|Jose|Done|
+|TS04|Endpoint para registrar actividades de mantenimiento completadas|Desarrollo de una API para el registro y seguimiento de actividades de mantenimiento completadas.|12|Abraham|Done|
+|TS05|Endpoint para consultar y reportar sobre mantenimientos|Creación de una API para consultar y generar informes detallados sobre actividades de mantenimiento.|15|Ariana|Done|
+|TS06|Endpoint para gestionar cursos|Desarrollo de una API para la gestión completa de cursos, incluyendo asignación de profesores y horarios.|12|Belen|Done|
+|TS07|Endpoint para asignación de aulas y horarios|Implementación de una API para la asignación dinámica de aulas y horarios según las necesidades del plan de estudios.|15|Jose|Done|
+
+#### **5.2.3.3. Development Evidence for Sprint Review.**
+
+
+<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id</th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Committed on (Date)</th></tr>
+<tr><td rowspan="8" valign="top">rocket-backend</td><td rowspan="8" valign="top">main</td><td valign="top">cc5380539e518b5e012ed34152437fd8bba924a0</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/b921036f64d49fc87d59b387b6c775caf8296c02) [#5](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/5) [from upc-pre-202401-si729-sw53-rocket/develop](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/b921036f64d49fc87d59b387b6c775caf8296c02)</td><td valign="top">-</td><td valign="top">03/06/2024</td></tr>
+<tr><td valign="top">8818cf531925a90229cfec6d133bdaab573d74f5</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/cbd874360b1ad18acadc526b027146f444034e9c) [#4](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/4) [from upc-pre-202401-si729-sw53-rocket/fix/v0.1.0](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/cbd874360b1ad18acadc526b027146f444034e9c)</td><td valign="top">-</td><td valign="top">03/06/2024</td></tr>
+<tr><td valign="top">790f3da162596de33f97547c880b6f2b3b445738</td><td valign="top">[fix: resolve all the incorrect endpoints](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/bdc571254d7fbe1325332df25a94fae4a02b9e22)</td><td valign="top">-</td><td valign="top">03/06/2024</td></tr>
+<tr><td valign="top">b1c4ab4d07a2c3e74e0f4542b23e226124b2e7f4</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/4488f0310c3d4c01fd752f6cc2de3bf8e45cc9c6) [#3](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/3) [from upc-pre-202401-si729-sw53-rocket/develop](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/4488f0310c3d4c01fd752f6cc2de3bf8e45cc9c6)</td><td valign="top">-</td><td valign="top">02/06/2024</td></tr>
+<tr><td valign="top">6c1df31b3142b8af5582cf16e6d7e31a77d4febe</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/6c1df31b3142b8af5582cf16e6d7e31a77d4febe) [#2](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/2) [from upc-pre-202401-si729-sw53-rocket/feature/teacher](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/6c1df31b3142b8af5582cf16e6d7e31a77d4febe)</td><td valign="top">-</td><td valign="top">02/06/2024</td></tr>
+<tr><td valign="top">b921036f64d49fc87d59b387b6c775caf8296c02</td><td valign="top">[feat: add administrator command services](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/790f3da162596de33f97547c880b6f2b3b445738)</td><td valign="top">-</td><td valign="top">02/06/2024</td></tr>
+<tr><td valign="top">cbd874360b1ad18acadc526b027146f444034e9c</td><td valign="top">[feat: add the teacher bounded](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/8818cf531925a90229cfec6d133bdaab573d74f5)</td><td valign="top">-</td><td valign="top">03/06/2024</td></tr>
+<tr><td valign="top">bdc571254d7fbe1325332df25a94fae4a02b9e22</td><td valign="top">[chore: add the main structure](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/cc5380539e518b5e012ed34152437fd8bba924a0)</td><td valign="top">-</td><td valign="top">03/06/2024</td></tr>
+</table>
+
+
+
+5\.2.3.4. Testing Suite Evidence for Sprint Review.
+
+En el alcance del sprint 3 no se ha desarrollado el funcionalidades referente a testing en el backend API web por lo que no se evidencia testing.
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- | :- |
+|||||||
+
+5\.2.3.5. Execution Evidence for Sprint Review.
+
+En este sprint logramos como tercera fase de nuestro producto final, desarrollar el resto de vistas de nuestra aplicación web usando Angular y Angular Material, en conjunto con una API hecha con C#.  Muestra de todas  vistas restantes programadas en Vue para este sprint: 
+
+Pantalla de muestra de la respuesta de nuestras pruebas a la API hecha con C#:
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.002.png)
+
+Video que ilustra y explica la visualización y navegación logrados en este Sprint.
+
+Video:
+
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review.**
+
+Para este sprint utilizamos los servicios de la API que nosotros mismos hicimos con Java en Spring Boot. A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
+
+|**Bounded Context**|Classroom||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+|Administrator|api/v1/administrator|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.003.png)|
+|Classroms|api/v1/classrooms|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.004.png)|
+|Courses|api/v1/courses|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.005.png)|
+
+|**Bounded Context**|Teacher||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+|Attendances|api/v1/attendances|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.006.png)|
+|Grades|api/v1/grades|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.007.png)|
+|InfrastructureReport|api/v1/infrastructure-report|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.008.png)|
+|Inventory|api/v1/inventory|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.009.png)|
+|Teacher|api/v1/teacher|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.010.png)|
+
+#### **5.2.3.7.** Software Deployment Evidence for Sprint Review.
+
+Primero ingresamos a railway.com y nos logueamos para después poder llegar a esta sección en la que haremos click en start a new project.
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.011.png)
+
+Después en la siguiente pantalla presionaremos en la opción “Deploy MySQL”.
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.012.png)
+
+En la siguiente sección nos saldrán una serie de opciones de configuración para nuestro archivo ‘appsettings.json’ que tendremos que actualizar.
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.013.png)
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.014.png)
+
+Tras haber hecho eso solo presionaremos en ‘Run Code’ en Rider y se desplegará la base de datos y la lógica de backend en 2 servicios que estarán interconectados.
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.015.png)
+
+Cabe recalcar que llegados a este punto como resultado obtendremos una url que nos servirá para poder usarla desde el FrontEnd y así poder interactuar con la data que necesitemos.
+
+#### **5.2.3.8.** Team Collaboration Insights during Sprint.
+
+Durante este sprint, al igual que para el desarrollo de la landing page, para proteger la rama “main” creamos una rama “develop” de la que cada integrante de nuestro grupo creó su propia sub-rama “feature“ para subir un capítulo del reporte siguiendo las convenciones antes señaladas(conventional commit y git flow).
+
+**Github analytics de nuestro tercer sprint:**
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.016.png)
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.017.png)
+
+## **5.3. Validation Interviews**
+
+Después de haber actualizado nuestras secciones de frontend y backend, vamos a llevar a cabo una serie de entrevistas para validar cómo se comporta nuestro software cuando lo usan nuestros usuarios objetivo.
+
+### **5.3.1. Diseño de entrevistas**
+
+**Preguntas Generales para Profesores y Equipo Administrativo:**
+
+- ¿Cuál es su nombre completo?
+- ¿Cuál es su edad?
+- En el caso de los profesores: ¿Qué materia(s) imparte y en qué nivel educativo?
+- Para el equipo administrativo: ¿Cuál es su rol dentro de la institución?
+
+**Preguntas Principales tras operar la aplicación**
+
+- ¿Qué le parece el diseño de nuestra página de inicio?
+- ¿El contenido de la aplicación es relevante para su labor educativa/administrativa? ¿Hay algo que sugiere para mejorar?
+- ¿Qué opinión tiene sobre las funcionalidades específicas de la aplicación para su segmento (profesores/administrativos)?
+- ¿Encuentra la aplicación fácil de usar? ¿Hay algo que considere que podríamos mejorar para facilitar su uso?
+- ¿Los mensajes de ayuda y los avisos de error le son útiles en la aplicación?
+
+**Preguntas Complementarias**
+
+- ¿Qué tipo de dispositivo utiliza con más frecuencia en su labor educativa/administrativa?
+- ¿Hay algún navegador que prefiera usar para nuestras futuras optimizaciones de la aplicación?
+
+### **5.3.2. Registro de Entrevistas**
+
+En esta sección, se proporciona el registro detallado de las entrevistas realizadas de cada segmento objetivo. Para acceder a todas las entrevistas completas, se facilita el enlace correspondiente para su visualización en Microsoft Stream: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3> 
+
+**Segmento objetivo #1: Profesores**
+
+**Entrevista #1:**
+
+
+
+**Nombres y apellidos:** Andrés Segovia Maya
+
+**Edad:** 39 años
+
+**Ubicación:** Paiján, provincia de Ascope, en la Libertad
+
+**Ocupación:** Profesor de matemáticas en una institución privada de Paiján
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.018.png)
+
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+
+**Tiempo de la Entrevista:** Comienzo: 00:00 - Fin: 10:27
+
+**Resumen:**
+
+El profesor Andrés encontró la página de inicio atractiva y profesional, aunque sugirió agregar más información sobre la aplicación. Valoró la integración de redes sociales y la presentación de planes de adquisición. En la aplicación, sugirió incluir funciones para subir tareas en formato PDF y que haya una manera de compartir las notas de los alumnos a los padres para que puedan tener un seguimiento de la asistencia y las calificaciones.
+
+En cuanto a la usabilidad, consideró la interfaz intuitiva y fácil de usar, especialmente en la gestión de notas y asistencia. Recomienda agregar un botón para registrar automáticamente los días de dictado de clases y recomienda la inclusión de mensajes de confirmación para guardar o borrar acciones, para evitar errores en el ingreso de notas.
+
+**Necesidades y Mejoras Identificadas**
+
+Para mejorar la interacción y comunicación, el profesor sugirió optimizar la forma en que los profesores pueden ingresar los días de dictado de clases y añadir funcionalidades para que los padres puedan ver las calificaciones y la asistencia de sus hijos. También destacó la importancia de incluir mensajes de confirmación para acciones críticas como guardar y borrar notas.
+
+En términos de optimización técnica, recomendó adaptar la aplicación para ser compatible con diferentes navegadores, aunque su preferido es Google Chrome.
+
+**Conclusión**
+
+La entrevista revela la necesidad de mejoras en la usabilidad y funcionalidad de la aplicación RocketNotes, con énfasis en la comunicación con los padres y la optimización del registro de asistencia. 
+
+**Entrevista #2:**
+
+**Nombre:** Tatiana Cabrera Goicoechea
+
+**Edad:** 33 años
+
+**Ubicación:** Vive en el distrito de Paiján, provincia de Ascope, departamento de la Libertad
+
+**Ocupación:** Docente del nivel secundario
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.019.png)
+
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+
+**Tiempo de la Entrevista:** Comienzo: 10:28 - Fin: 19:02
+
+**Resumen:**
+
+La profesora Tatiana encontró la página de inicio llamativa y bien organizada, mostrando la información deseada de manera correcta. Respecto al contenido de la aplicación, lo considera relevante para su labor educativa. Sugiere mejorar la funcionalidad de las calificaciones, añadiendo una opción para mostrar las notas en formato literal, además del numérico, acorde con los requerimientos del Ministerio de Educación.
+
+En términos de usabilidad, considera que la aplicación es fácil de usar y que las funcionalidades presentadas serían de gran ayuda en su trabajo diario. También sugirió la inclusión de mensajes de ayuda y confirmación para acciones como guardar y subir reportes, para asegurar que se realiza correctamente.
+
+**Necesidades y Mejoras Identificadas**
+
+Para mejorar la funcionalidad y la usabilidad de la aplicación, la profesora Tatiana sugiere:
+
+- **Calificaciones en Formato Literal:** Implementar la opción de mostrar las notas en formato literal además del numérico.
+- **Mensajes de Confirmación:** Incluir mensajes de ayuda y confirmación para guardar y subir reportes, para evitar errores y asegurar la correcta realización de estas acciones.
+
+**Conclusión**
+
+La entrevista con la profesora Tatiana Cabrera Goicoechea destaca la necesidad de incorporar mejoras específicas en la funcionalidad de las calificaciones y la inclusión de mensajes de confirmación. 
+
+**Nombres y Apellidos:** Juan Carlos Rodríguez Carrion
+
+**Edad:** 35 años
+
+**Ubicación:** La Libertad, Casa Grande, provincia de Ascope
+
+**Ocupación:** Docente en un colegio particular de Paiján
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.020.png)
+
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+
+**Tiempo de la Entrevista:** Comienzo: 19:03 - Fin: 26:58
+
+**Resumen:**
+
+Juan Carlos Rodríguez Carrión, de 35 años, es docente del área de matemáticas en nivel secundario y preuniversitario. Utiliza principalmente dispositivos con sistema operativo Android, alternando entre celular y laptop para su labor educativa. Prefiere el navegador Google Chrome para sus tareas diarias. Durante la entrevista, se le presentó la landing page de RocketNotes y luego la aplicación, accesible desde dicha landing page.
+
+El profesor encontró la página de inicio interesante y bien organizada, destacando la opción de visualización en dos idiomas (español e inglés). Respecto al contenido de la aplicación, consideró que las funciones y características presentadas son útiles y relevantes para su labor educativa. Apreció la posibilidad de enviar información directamente a los padres de familia y destacó la utilidad de las funcionalidades de notas y asistencia.
+
+**Necesidades y Mejoras Identificadas**
+Juan Carlos no identificó mejoras específicas en las funcionalidades presentadas, pero confirmó que la capacidad de editar notas y agregar descripciones específicas para participación, cuadernos y exámenes es muy útil. Considera que la aplicación es clara y fácil de usar, con íconos suficientemente grandes para ser observados fácilmente.
+
+
+
+
+
+
+**Segmento objetivo #2: Equipo Administrativo**
+
+**Entrevista #1:**
+
+**Nombre:** Graciela del Rocío Ríos Alza
+
+**Edad:** 51 años
+
+**Ubicación:** La Libertad, Trujillo
+
+**Ocupación:** Promotora de una institución educativa
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.021.png)
+
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+
+**Tiempo de la Entrevista:** Comienzo: 26:59 - Fin: 35:57
+
+**Resumen:**
+
+Graciela encontró la página de inicio creativa y bien diseñada, aunque sugirió un poco más de color. Respecto al contenido de la aplicación, lo considera relevante para la labor administrativa y cree que las funcionalidades presentadas son completas y bien pensadas.
+
+Recomienda diferenciar los niveles educativos (inicial, primaria y secundaria) para una mejor organización y visualización de los salones. También considera importante agregar mensajes de ayuda y confirmación para acciones críticas como la edición de datos, para asegurar que se realizan correctamente.
+
+**Necesidades y Mejoras Identificadas**
+
+Para mejorar la funcionalidad y la usabilidad de la aplicación, Graciela sugiere:
+
+- **Diferenciación de Niveles Educativos:** Implementar la diferenciación de niveles educativos para facilitar la organización y visualización de los salones.
+- **Mensajes de Confirmación:** Incluir mensajes de ayuda y confirmación para acciones como la edición de datos, para evitar errores y asegurar la correcta realización de estas acciones.
+
+**Conclusión**
+
+La entrevista con Graciela Rocío Ríos Alza destaca la necesidad de incorporar mejoras específicas en la diferenciación de niveles educativos y la inclusión de mensajes de confirmación.
+
+**Entrevista #2:**
+
+**Nombre:** Paul Ramos Chumpitazi
+
+**Edad:** 54 años
+
+**Ubicación:** La Libertad, Paijan
+
+**Ocupación:** Docente del nivel secundario, además de desempeñarse en la parte administrativa de una institución educativa
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.022.png)
+
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+
+**Tiempo de la Entrevista:** Comienzo: 35:59 - Fin: 48:36
+
+**Resumen:**
+
+Paul encontró la página de inicio interesante y llamativa. Respecto al contenido de la aplicación, habló de varias mejoras: sugirió que cuando se asigna un profesor, debería ser posible especificar a qué grado va a enseñar, lo cual facilitaría a los padres obtener el horario y la información sobre los profesores asignados a cada grado, además de ayudar a organizar mejor la planificación de horarios dentro de la institución. Propuso la implementación de una bitácora electrónica manejada por el tutor del aula para registrar y monitorear el comportamiento de los alumnos, lo que permitiría a los padres estar informados sobre el comportamiento de sus hijos y tomar medidas correctivas cuando sea necesario. Los tutores podrían registrar comportamientos como mal comportamiento, inasistencia y problemas durante las clases. Además, sugirió que los padres puedan acceder a cierta información relevante a través de la plataforma, como los horarios, los profesores asignados y el tutor del aula, lo cual facilitaría la comunicación entre padres y escuela y proporcionaría a los padres una herramienta para seguir de cerca el progreso y comportamiento de sus hijos.
+
+**Necesidades y Mejoras Identificadas**
+
+Para mejorar la funcionalidad y la usabilidad de la aplicación, Paul sugiere:
+
+- **Asignación de Profesores por Grado:** Implementar la asignación de profesores a grados específicos para facilitar la organización y la comunicación con los padres.
+- **Bitácora Electrónica:** Crear una bitácora electrónica para que los tutores puedan registrar y monitorear el comportamiento de los alumnos, proporcionando información de estos registros a los padres para que puedan ver el comportamiento de sus hijos.
+
+**Conclusión**
+
+La entrevista con Ramón Chumpitazi, Max Paul, destaca la necesidad de incorporar mejoras específicas en la asignación de profesores por grado, la implementación de una bitácora electrónica, y el acceso para padres a información relevante. 
+
+**Entrevista #3:**
+
+**Nombre:** Juliana Gisela Chávez Pozo
+
+**Edad:** 31 años
+
+**Ubicación:** Distrito de Paiján, provincia de Ascope, La Libertad
+
+**Ocupación:** Docente y directora de un colegio privado
+
+![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.023.png)
+
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+
+**Tiempo de la Entrevista:** Comienzo: 48:38 - Fin: 58:33
+
+**Resumen:**
+
+Julián encontró la página de inicio clara y alineada con el propósito de la aplicación. Respecto al contenido de la aplicación, consideró que las funciones y características presentadas son interesantes, pero sugirió varias mejoras importantes: añadir un apartado específico para el coordinador de disciplina, lo cual permitiría monitorear mejor el comportamiento de los alumnos; permitir a los padres acceder a cierta información relevante a través de la plataforma, como comunicados y el comportamiento diario de sus hijos, facilitando así la comunicación entre padres y escuela y proporcionando a los padres una herramienta para seguir de cerca el progreso y comportamiento de sus hijos; e incluir notificaciones o alarmas para que el director pueda recibir información en tiempo real sobre eventos importantes, evitando la necesidad de buscar al director físicamente dentro del colegio.
+
+**Necesidades y Mejoras Identificadas**
+
+Para mejorar la funcionalidad y la usabilidad de la aplicación, Julián sugiere:
+
+- Coordinador de Disciplina: Implementar un apartado específico para el coordinador de disciplina.
+- Acceso para Padres: Permitir a los padres acceder a información relevante sobre el comportamiento y progreso de sus hijos.
+- Notificaciones y Alertas: Incluir notificaciones y alertas para mantener al director informado en tiempo real.
+- Compatibilidad Móvil: Asegurar que la aplicación sea compatible con computadoras y dispositivos móviles.
+
+**Conclusión**
+
+La entrevista con Julián Chávez Pozo destaca la necesidad de incorporar mejoras específicas en la coordinación de disciplina, acceso para padres y notificaciones en tiempo real. 
+
+### **5.3.3. Evaluaciones según heurísticas**
+
+**UX Heuristics & Principles Evaluation**
+
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA:** Ingeniería de Software
+
+**CURSO:** Aplicaciones Web
+
+**SECCIÓN:** SW53
+
+**PROFESORES:** Todos
+
+**AUDITOR:** Nombre del Grupo que ejecuta la Sesión de evaluación
+
+**CLIENTE(S):** Profesores y personal administrativo
+
+-----
+**SITE o APP A EVALUAR: Rocket Notes**
+
+**TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. **Registro de un usuario nuevo:** Tanto profesores como personal administrativo deben poder registrarse fácilmente.
+1. **Gestión de Profesores:** Incluye registro, edición y eliminación de profesores.
+1. **Gestión de Estudiantes:** Registro y gestión de información de estudiantes.
+1. **Gestión de Salones:** Registrar y editar salones, asignar secciones y monitorear capacidad.
+1. **Envío de Correos:** Capacidad de enviar correos a los padres.
+1. **Mantenimiento de Infraestructura**: Registra el mantenimiento de infraestructuras como el auditorio, indicando el costo, fecha de creación y estado del progreso.
+1. **Registro de Asistencia y Notas:** Capturar y mostrar asistencia y rendimiento de los estudiantes.
+1. **Reportes de Infraestructura y Estudiantes:** Generación de reportes por parte de los profesores.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
+
+| **Nivel**|**Descripción**|
+|:--------| :- |
+| 1       |Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+| 2       |Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase|
+| 3       |Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+| 4       |Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+**TABLA RESUMEN:**
+
+|#|Problema|Escala de severidad|Heurística/Principio violado|
+| :-: | :-: | :-: | :-: |
+|1|Gestión ineficiente de datos de profesores|3|Usability: Flexibilidad y eficiencia de uso|
+|2|Falta de confirmación en eliminación de datos críticos|4|Usability: Prevención de errores|
+|3|Inconsistencia en la interfaz entre secciones de profesores y estudiantes|2|Usability: Consistencia y estándares|
+|4|Proceso de registro complejo para nuevos usuarios|3|Usability: Simplicidad y naturalidad de uso|
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1: Gestión ineficiente de datos de profesores**
+
+- **Severidad:** 3
+- **Heurística violada:** Usabilidad - Flexibilidad y eficiencia de uso
+- **Problema:** La gestión de datos de profesores en la plataforma RocketNotes es lenta y poco práctica, lo que dificulta la búsqueda rápida, edición y organización eficiente de la información del personal docente. Este problema puede retrasar operaciones diarias como la programación de clases o la comunicación.
+- **Recomendación:** Optimizar la interfaz de usuario relacionada con la gestión de profesores mediante la incorporación de herramientas de filtrado avanzado, búsqueda rápida y atajos de teclado que permitan a los administrativos y profesores manejar la información más eficientemente.
+
+**PROBLEMA #2: Falta de confirmación en eliminación de datos críticos**
+
+- **Severidad:** 4
+- **Heurística violada:** Usabilidad - Prevención de errores
+- **Problema:** La aplicación permite la eliminación de datos críticos como perfiles de estudiantes o registros académicos sin requerir una confirmación explícita del usuario, lo que puede llevar a la pérdida accidental de información importante.
+- **Recomendación:** Implementar cuadros de diálogo de confirmación antes de realizar acciones de eliminación de datos, asegurando que los usuarios sean conscientes de las consecuencias y tengan una oportunidad de cancelar la operación si fue seleccionada por error.
+
+**PROBLEMA #3: Inconsistencia en la interfaz entre secciones de profesores y estudiantes**
+
+- **Severidad:** 2
+- **Heurística violada:** Usabilidad - Consistencia y estándares
+- **Problema:** La experiencia de usuario varía significativamente entre las secciones de gestión de profesores y estudiantes, causando confusión y aumentando la curva de aprendizaje para los nuevos usuarios que necesitan interactuar con ambas secciones.
+- **Recomendación:** Uniformizar el diseño y la funcionalidad de todas las interfaces dentro de RocketNotes para garantizar una experiencia coherente, utilizando los mismos estilos, tipografías, y esquemas de navegación a través de toda la plataforma.
+
+**PROBLEMA #4: Proceso de registro complejo para nuevos usuarios**
+
+- **Severidad:** 3
+- **Heurística violada:** Usabilidad - Simplicidad y naturalidad de uso
+- **Problema:** Los nuevos usuarios enfrentan un proceso de registro que puede ser confuso y tedioso debido a la cantidad de pasos necesarios y la falta de instrucciones claras, lo que puede desalentar la continuación del proceso y afectar la adquisición de usuarios.
+- **Recomendación:** Simplificar el formulario de registro, reduciendo el número de campos requeridos y proporcionando una guía paso a paso en pantalla o asistencia contextual que ayude a los usuarios a completarlo fácilmente.
+
+**Conclusiones**
 
 - Realizar un producto de esta magnitud significó un desafío para todo el equipo debido a la alta competitividad en otros sectores. Sin embargo, logramos hacer un producto destacable e interesante en la industria. Gracias a la landing page que captará la atención de gente interesada en ver nuestro producto, hay altas posibilidades de contactarnos para trabajar en equipo y así aumentar nuestra visibilidad en la industria. Por supuesto, para ello se investigó y analizó la competencia más destacable para nosotros y así ofrecer funciones interesantes o cuanto menos, prácticas para lograr destacarse y hacer un negocio rentable.
 
@@ -2681,28 +3131,24 @@ Smith, J., & Doe, J. "Enhancing Efficiency in Education through Learning Managem
 
 **Anexo A: Videos de Exposiciones**
 
-**TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0>** 
+TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0> 
 
-**TP:**
+TP:
 
-[**https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)** 
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
 
-**Anexo B: C4 MODEL: [http://c4model.com**](http://c4model.com)**
+Anexo B: C4 MODEL: <http://c4model.com>
 
-**Anexo C: LINK FIGMA: [https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1**](https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1)**
+Anexo C: LINK FIGMA: <https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1>
 
-**Anexo D: LINK LANDING PAGE: <https://upc-pre-202401-si729-sw53-rocket-land.netlify.app/>** 
+Anexo D: LINK LANDING PAGE: <https://upc-pre-202401-si729-sw53-rocket-land.netlify.app/>
 
-**Anexo E: LINK TRELLO: [https://trello.com/b/fHKD9Uys/product-backlog**](https://trello.com/b/fHKD9Uys/product-backlog)**
+Anexo E: LINK TRELLO: <https://trello.com/b/fHKD9Uys/product-backlog>
 
-**Anexo F:LINK LEAN UX CANVAS: [https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253**](https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253)**
+Anexo F:LINK LEAN UX CANVAS: <https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253>
 
-**LINK FIGMA: [https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1**](https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1)**
+LINK FIGMA: <https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1>
 
-[ref1]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.001.png
-[ref2]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.002.png
-[ref3]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.003.png
-[ref4]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.004.png
-[ref5]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.014.png
-[ref6]: assets/Aspose.Words.55e46a00-9da6-4034-9085-3c0e60afc260.028.png
+Link de la aplicación web:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://rocket-organize.netlify.app>
+
 
