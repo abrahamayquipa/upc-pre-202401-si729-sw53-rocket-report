@@ -3117,7 +3117,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## **5.4 Video About-the-Product.**
 
-**VIDEO ABOUT-THE-PRODUCT:** <>
+**VIDEO ABOUT-THE-PRODUCT:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218475_upc_edu_pe/EWJ9rGyfnBNHm3mUvE0BycABa5W-JSgjnhxMuImYeBPvmw?e=ZaDTdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+**VIDEO ABOUT-THE-PRODUCT EN YOUTUBE:** <https://youtu.be/WNVmO3btpIg>
 
 **Conclusiones**
 
