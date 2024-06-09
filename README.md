@@ -3155,7 +3155,7 @@ Anexo F:LINK LEAN UX CANVAS: <https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUm
 
 LINK FIGMA: <https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1>
 
-**Anexo B: Videos de Exposiciones**
+**Anexo: Videos de Exposiciones y Aplicación**
 
 LINK DE LA APLICACIÓN WEB:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://rocket-organize.netlify.app>
 
@@ -3163,7 +3163,7 @@ TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/ER
 
 TP: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
 
-TB3: <>
+TB3: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EVciCGnbdnBOoemFWmQcSjoBNAtDT6NezH1ROJj2ukuV8g?e=7gC67n&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
 VIDEO ABOUT-THE-TEAM: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EajSOaCfssNKoVucu5F4CxoBpxe_KdjYZ9Gy46Dds4g-0w?e=1oXNNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
 
