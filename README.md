@@ -42,39 +42,44 @@ Marzo de 2024-01
 
 
 
-|**Versión**|**Fecha**|       **Autor**       |                        **Descripción de modificación**                         |
-| :-: | :-: |:---------------------:|:------------------------------------------------------------------------------:|
-|TB1|23/03/2024|      Belen Ramos      |                   Desarrollo del capítulo I: Startup Profile                   |
-|TB1|24/03/2024|     Mateo Vilchez     |                  Desarrollo del capítulo I: Solution Profile                   |
-|TB1|24/03/2024| Ariana Vargas Revollé |                  Desarrollo del capítulo I: Solution Profile                   |
-|TB1|24/03/2024|     Mateo Vilchez     |                 Desarrollo del capítulo I: Segmentos Objetivos                 |
-|TB1|26/03/2024| Ariana Vargas Revollé |                    Desarrollo del capítulo II: Competidores                    |
-|TB1|30/03/2024|      Belen Ramos      |                    Desarrollo del capítulo II: Entrevistas                     |
-|TB1|31/03/2024| Ariana Vargas Revollé |                    Desarrollo del capítulo II: Needfinding                     |
-|TB1|01/04/2024| Ariana Vargas Revollé |              Desarrollo del capítulo III: To-Be Scenario Mapping               |
-|TB1|07/04/2024| Ariana Vargas Revollé |                   Desarrollo del capítulo III: User Stories                    |
-|TB1|08/04/2024|      Belen Ramos      |                   Desarrollo del capítulo III: User Stories                    |
-|TB1|08/04/2024|     Mateo Vilchez     |                  Desarrollo del capítulo III: Impact Mapping                   |
-|TB1|09/04/2024|Jose Carlo Mayuri Armas|                  Desarrollo del capítulo III:Product Backlog                   |
-|TB1|11/04/2024|Jose Carlo Mayuri Armas|                  Desarrollo del capítulo IV: Style Guidelines                  |
-|TB1|12/04/2024|Jose Carlo Mayuri Armas|             Desarrollo del capítulo IV: Information Architecture.              |
-|TB1|09/04/2024|     Mateo Vilchez     |               Desarrollo del capítulo IV: Landing Page UI Design               |
-|TB1|10/04/2024|     Mateo Vilchez     |           Desarrollo del capítulo IV: Web Applications UX/UI Design            |
-|TB1|12/04/2024|Jose Carlo Mayuri Armas|            Desarrollo del capítulo IV: Web Applications Prototyping            |
-|TB1|10/04/2024| Ariana Vargas Revollé |        Desarrollo del capítulo IV: Domain-Driven Software Architecture         |
-|TB1|13/04/2024|      Belen Ramos      |          Desarrollo del capítulo IV: Software Object-Oriented Design.          |
-|TB1|13/04/2024|      Belen Ramos      |                  Desarrollo del capítulo IV: Database Design                   |
-|TB1|13/04/2024|     Mateo Vilchez     |         Desarrollo del capítulo V: Software Configuration Management.          |
-|TB1|13/04/2024|    Abraham Ayquipa    |         Desarrollo del capítulo V: Software Configuration Management.          |
-|TB1|14/04/2024|    Abraham Ayquipa    |Desarrollo del capítulo V: Landing Page, Services & Applications Implementation.|
-|TB1|14/04/2024|    Abraham Ayquipa    |Desarrollo del capítulo V: Landing Page, Services & Applications Implementation.|
-|TP|27/04/2024|      Belen Ramos      |                Corrección del Solution Profile: Lean UX Canvas                 |
-|TP|27/04/2024|    Abraham Ayquipa    |                    Corrección del capítulo V: Landing Page                     |
-|TP|26/04/2024|      Belen Ramos      |                    Corrección del capítulo II: Entrevistas                     |
-|TP|26/04/2024|      Belen Ramos      |                    Corrección del capítulo II: Needfinding                     |
-|TP|27/04/2024|     Mateo Vilchez     |                  Corrección del capítulo III: Impact Mapping                   |
-|TP|27/04/2024|     Mateo Vilchez     |           Corrección del capítulo IV: Web Applications UX/UI Design            |
-|TP|01/05/2024|      Belen Ramos      |                 Desarrollo de User Stories: Technicals Stories                 |
+| **Versión** |**Fecha**|                 **Autor**                  |                         **Descripción de modificación**                          |
+|:-----------:| :-: |:------------------------------------------:|:--------------------------------------------------------------------------------:|
+|     TB1     |23/03/2024|                Belen Ramos                 |                    Desarrollo del capítulo I: Startup Profile                    |
+|     TB1     |24/03/2024|               Mateo Vilchez                |                   Desarrollo del capítulo I: Solution Profile                    |
+|     TB1     |24/03/2024|           Ariana Vargas Revollé            |                   Desarrollo del capítulo I: Solution Profile                    |
+|     TB1     |24/03/2024|               Mateo Vilchez                |                  Desarrollo del capítulo I: Segmentos Objetivos                  |
+|     TB1     |26/03/2024|           Ariana Vargas Revollé            |                     Desarrollo del capítulo II: Competidores                     |
+|     TB1     |30/03/2024|                Belen Ramos                 |                     Desarrollo del capítulo II: Entrevistas                      |
+|     TB1     |31/03/2024|           Ariana Vargas Revollé            |                     Desarrollo del capítulo II: Needfinding                      |
+|     TB1     |01/04/2024|           Ariana Vargas Revollé            |               Desarrollo del capítulo III: To-Be Scenario Mapping                |
+|     TB1     |07/04/2024|           Ariana Vargas Revollé            |                    Desarrollo del capítulo III: User Stories                     |
+|     TB1     |08/04/2024|                Belen Ramos                 |                    Desarrollo del capítulo III: User Stories                     |
+|     TB1     |08/04/2024|               Mateo Vilchez                |                   Desarrollo del capítulo III: Impact Mapping                    |
+|     TB1     |09/04/2024|          Jose Carlo Mayuri Armas           |                   Desarrollo del capítulo III:Product Backlog                    |
+|     TB1     |11/04/2024|          Jose Carlo Mayuri Armas           |                   Desarrollo del capítulo IV: Style Guidelines                   |
+|     TB1     |12/04/2024|          Jose Carlo Mayuri Armas           |              Desarrollo del capítulo IV: Information Architecture.               |
+|     TB1     |09/04/2024|               Mateo Vilchez                |                Desarrollo del capítulo IV: Landing Page UI Design                |
+|     TB1     |10/04/2024|               Mateo Vilchez                |            Desarrollo del capítulo IV: Web Applications UX/UI Design             |
+|     TB1     |12/04/2024|          Jose Carlo Mayuri Armas           |             Desarrollo del capítulo IV: Web Applications Prototyping             |
+|     TB1     |10/04/2024|           Ariana Vargas Revollé            |         Desarrollo del capítulo IV: Domain-Driven Software Architecture          |
+|     TB1     |13/04/2024|                Belen Ramos                 |           Desarrollo del capítulo IV: Software Object-Oriented Design.           |
+|     TB1     |13/04/2024|                Belen Ramos                 |                   Desarrollo del capítulo IV: Database Design                    |
+|     TB1     |13/04/2024|               Mateo Vilchez                |          Desarrollo del capítulo V: Software Configuration Management.           |
+|     TB1     |13/04/2024|              Abraham Ayquipa               |          Desarrollo del capítulo V: Software Configuration Management.           |
+|     TB1     |14/04/2024|              Abraham Ayquipa               | Desarrollo del capítulo V: Landing Page, Services & Applications Implementation. |
+|     TB1     |14/04/2024|              Abraham Ayquipa               | Desarrollo del capítulo V: Landing Page, Services & Applications Implementation. |
+|     TP      |27/04/2024|                Belen Ramos                 |                 Corrección del Solution Profile: Lean UX Canvas                  |
+|     TP      |27/04/2024|              Abraham Ayquipa               |                     Corrección del capítulo V: Landing Page                      |
+|     TP      |26/04/2024|                Belen Ramos                 |                     Corrección del capítulo II: Entrevistas                      |
+|     TP      |26/04/2024|                Belen Ramos                 |                     Corrección del capítulo II: Needfinding                      |
+|     TP      |27/04/2024|               Mateo Vilchez                |                   Corrección del capítulo III: Impact Mapping                    |
+|     TP      |27/04/2024|               Mateo Vilchez                |            Corrección del capítulo IV: Web Applications UX/UI Design             |
+|     TP      |01/05/2024|                Belen Ramos                 |                  Desarrollo de User Stories: Technicals Stories                  |
+|     TB3     |01/05/2024|                Belen Ramos                 |                         EndPoint: Students and Teachers                          |
+|     TB3     |01/05/2024|              Abraham Ayquipa               |                    EndPoint: Courses, Classrooms and Reports                     |
+|     TB3     |01/05/2024|           Ariana Vargas Revollé            |                             EndPoint: Administrator                              |
+|     TB3     |01/05/2024|          Jose Carlo Mayuri Armas           |                         EndPoint: Grades and Attendance                          |
+|     TB3     |01/05/2024|                Mateo Vilchez               |                        EndPoint: Facilities and Inventory                        |
 
 
 
@@ -3112,7 +3117,7 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 ## **5.4 Video About-the-Product.**
 
-**VIDEO ABOUT-THE-TEAM:** <>
+**VIDEO ABOUT-THE-PRODUCT:** <>
 
 **Conclusiones**
 
@@ -3124,9 +3129,13 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 - Para concluir, este proyecto de "RocketNotes" ha demostrado ser una amalgama de innovación, colaboración y compromiso, resultando en una herramienta significativamente transformadora para la gestión educativa. La aplicación no solo aborda los desafíos contemporáneos de las instituciones educativas mediante la automatización y optimización de procesos, sino que también empodera a profesores y administradores al simplificar las tareas administrativas y académicas. La validación a través de pruebas de usabilidad ha confirmado la eficacia de la interfaz y la experiencia del usuario, reflejando una mejora notable en la eficiencia y satisfacción de los usuarios finales. Este proyecto no solo ha cumplido con las expectativas establecidas, sino que ha sentado un precedente sobre cómo la tecnología aplicada inteligentemente puede revolucionar el entorno educativo, anticipando una adopción más amplia en futuras aplicaciones educativas.
 
+
+**VIDEO ABOUT-THE-TEAM:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EajSOaCfssNKoVucu5F4CxoBpxe_KdjYZ9Gy46Dds4g-0w?e=1oXNNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
+
 **Bibliografía**
 
-Smith, J., & Doe, J. "Enhancing Efficiency in Education through Learning Management Systems: A Case Study of the Blackboard System." Educational Technology Research and Development, vol. 65, no. 4, 2017, pp. 1023-1039. 
+Smith, J., & Doe, J. "Enhancing Efficiency in Education through Learning Management Systems: A Case Study of the Blackboard System." Educational Technology Research and Development, vol. 65, no. 4, 2017, pp. 1023-1039.
 
 ### **Anexos**
 
@@ -3154,4 +3163,5 @@ TP: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/Eal
 
 TB3: <>
 
-VIDEO ABOUT-THE-TEAM: <>
+VIDEO ABOUT-THE-TEAM: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EajSOaCfssNKoVucu5F4CxoBpxe_KdjYZ9Gy46Dds4g-0w?e=1oXNNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
