@@ -3109,16 +3109,16 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Problema:** Los nuevos usuarios enfrentan un proceso de registro que puede ser confuso y tedioso debido a la cantidad de pasos necesarios y la falta de instrucciones claras, lo que puede desalentar la continuación del proceso y afectar la adquisición de usuarios.
 - **Recomendación:** Simplificar el formulario de registro, reduciendo el número de campos requeridos y proporcionando una guía paso a paso en pantalla o asistencia contextual que ayude a los usuarios a completarlo fácilmente.
 
+## **5.4 Video About-the-Product.**
+
+**VIDEO ABOUT-THE-TEAM:** <>
+
 **Conclusiones**
 
 - Realizar un producto de esta magnitud significó un desafío para todo el equipo debido a la alta competitividad en otros sectores. Sin embargo, logramos hacer un producto destacable e interesante en la industria. Gracias a la landing page que captará la atención de gente interesada en ver nuestro producto, hay altas posibilidades de contactarnos para trabajar en equipo y así aumentar nuestra visibilidad en la industria. Por supuesto, para ello se investigó y analizó la competencia más destacable para nosotros y así ofrecer funciones interesantes o cuanto menos, prácticas para lograr destacarse y hacer un negocio rentable.
 
 
-
-
 - A lo largo de este proceso, hemos empleado técnicas avanzadas de mapeo de experiencia del usuario como son el As-is y To-be Scenario Mappings, así como User Journey Mapping, para profundizar en las necesidades y desafíos enfrentados por nuestros usuarios ideales. Estas herramientas han sido fundamentales para identificar y abordar puntos críticos, facilitando la iteración y mejora continua de plataformas de gestión escolar. Permitiéndonos diseñar soluciones más efectivas y centradas en el usuario, mejorando significativamente la interacción con las herramientas digitales en el ámbito educativo.
-
-
 
 
 - Para concluir, este proyecto de "RocketNotes" ha demostrado ser una amalgama de innovación, colaboración y compromiso, resultando en una herramienta significativamente transformadora para la gestión educativa. La aplicación no solo aborda los desafíos contemporáneos de las instituciones educativas mediante la automatización y optimización de procesos, sino que también empodera a profesores y administradores al simplificar las tareas administrativas y académicas. La validación a través de pruebas de usabilidad ha confirmado la eficacia de la interfaz y la experiencia del usuario, reflejando una mejora notable en la eficiencia y satisfacción de los usuarios finales. Este proyecto no solo ha cumplido con las expectativas establecidas, sino que ha sentado un precedente sobre cómo la tecnología aplicada inteligentemente puede revolucionar el entorno educativo, anticipando una adopción más amplia en futuras aplicaciones educativas.
@@ -3127,15 +3127,9 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
 Smith, J., & Doe, J. "Enhancing Efficiency in Education through Learning Management Systems: A Case Study of the Blackboard System." Educational Technology Research and Development, vol. 65, no. 4, 2017, pp. 1023-1039. 
 
-**Anexos**
+### **Anexos**
 
-**Anexo A: Videos de Exposiciones**
-
-TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0> 
-
-TP:
-
-<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
+**Anexo A**
 
 Anexo B: C4 MODEL: <http://c4model.com>
 
@@ -3149,6 +3143,14 @@ Anexo F:LINK LEAN UX CANVAS: <https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUm
 
 LINK FIGMA: <https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1>
 
-Link de la aplicación web:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://rocket-organize.netlify.app>
+**Anexo B: Videos de Exposiciones**
 
+LINK DE LA APLICACIÓN WEB:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://rocket-organize.netlify.app>
 
+TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0> 
+
+TP: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
+
+TB3: <>
+
+VIDEO ABOUT-THE-TEAM: <>
