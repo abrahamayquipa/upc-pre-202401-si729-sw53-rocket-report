@@ -3357,10 +3357,14 @@ Lindsay, J. (2013). *The JSON Data Interchange Format*. ECMA International. Retr
 
 **Anexo A: Videos de Exposiciones**
 
-- TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0> 
+- TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0>
 - TP:
 
-  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+- TF:
+
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EXo0yNySfRxLmSryFFnBPnwBv7ZdhhLw-dU1ZbY2-eY_yg?e=CAowD8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+
 
 **Anexo B:** C4 MODEL: <http://c4model.com>
 
