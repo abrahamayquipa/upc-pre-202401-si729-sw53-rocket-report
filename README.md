@@ -18,13 +18,13 @@ Alex Humberto Sánchez Ponce
 
 
 
-|**Integrantes**|**Código**|
-| :-: | :-: |
+|       **Integrantes**        |**Código**|
+|:----------------------------:| :-: |
 |Ayquipa Ubaldo, Abraham Israel|U202218475|
-|Mayuri Armas, Jose Carlo |U2020111437|
-|Vilchez Rios, Mateo Alejandro |U202210059|
-|Ramos Rios, Belén del Rocio|U202216246|
-|Vargas Revollé, Ariana|U20221A928|
+|   Mayuri Armas, Jose Carlo   |U2020111437|
+|Vilchez Rios, Mateo Alejandro |U202210059|
+| Ramos Rios, Belén del Rocio  |U202216246|
+|    Vargas Revollé, Ariana    |U20221A928|
 
 
 
@@ -2805,11 +2805,157 @@ Durante este sprint, al igual que para el desarrollo de la landing page, para pr
 
 ![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.017.png)
 
-## **5.3. Validation Interviews**
+**5.2.4. Sprint  4**
+
+**5.2.4.1. Sprint Planning 4**
+
+A continuación, se mostrará el cuarto sprint planning, en el cual se exhibirán la planificación e implementación de la sección backend del proyecto. Además, de los progresos y los insights sobre la colaboración del equipo utilizando Github.
+
+|Sprint #|Sprint 4|
+| - | - |
+|Sprint Planning Background||
+|Date|22 de junio de 2024|
+|Time|12:43 horas (GMT -5)|
+|Location|Modalidad remota a través de WhatsApp|
+|Prepared By|Vilchez Rios Mateo Alejandro, |
+|Attendees (to planning meeting)|<p>Ayquipa Ubaldo, Abraham Israel/</p><p>Mayurí Armas, Jose Carlo/</p><p>Ramos Rios, Belen del Rocio/</p><p>Vilchez Rios, Mateo Alejandro/</p><p>Vargas Revollé, Ariana </p>|
+|Sprint 3 Review Summary|En el Sprint anterior, se logró una integración exitosa entre el frontend y el backend, agregando autenticación mediante JWT. Esto marcó un avance significativo en la seguridad y manejo de sesiones de la aplicación.|
+|Sprint 3 Retrospective Summary|Se identificó la necesidad de realizar pruebas para verificar que todos los endpoints están funcionando correctamente. La retroalimentación del equipo apuntó hacia la mejora en los procesos de testing y validación para evitar fallos en producción.|
+|Sprint Goal & User Stories||
+|Sprint 4 Goal|Finalizar todas las conexiones entre el frontend y el backend, asegurando su correcta funcionalidad y rendimiento.|
+|Sprint 4 Velocity|70 Story Points|
+|Sum of Story Points|69 Story Points|
+
+**5.2.4.2. Sprint Backlog  4**
+
+El Sprint #4 se centra en robustecer la experiencia de usuario en nuestra plataforma mediante la mejora y expansión de las funcionalidades de registro y sesión de usuario, la integración de videos informativos sobre el equipo y el producto, así como la implementación de soporte multilingüe. Este sprint ha sido crucial para asegurar una interacción fluida y accesible para nuestros usuarios, abordando desde el registro y la autenticación hasta la personalización del contenido según las preferencias lingüísticas del usuario.
+
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.001.png)
+
+**Trello: <https://trello.com/b/uNj2D9JW>**  
+
+<table><tr><th colspan="2" valign="top"><b>Sprint #4</b></th><th colspan="6" valign="top"><b>Sprint 4</b></th></tr>
+<tr><td colspan="2" valign="top"><b>User Story</b></td><td colspan="6" valign="top"><b>Work-Item / Task</b></td></tr>
+<tr><td valign="top"><b>Id</b></td><td valign="top"><b>Title</b></td><td valign="top"><b>Id</b></td><td valign="top"><b>Tittle</b></td><td valign="top"><b>Description</b></td><td valign="top"><b>Estimation (Hours)</b></td><td valign="top"><b>Assigned To</b></td><td valign="top"><b>Status</b></td></tr>
+<tr><td rowspan="3" valign="top">E1-US01</td><td rowspan="3" valign="top">Registro de un nuevo usuario</td><td valign="top">T01</td><td valign="top">Registro exitoso de un nuevo usuario</td><td valign="top">Desarrollar un formulario para registrar un nuevo usuario exitosamente.</td><td valign="top">3</td><td valign="top">Abraham</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T02</td><td valign="top">Intento de registro con un correo electrónico ya registrado</td><td valign="top">Desarrollar la funcionalidad para manejar intentos de registro con un correo electrónico ya registrado.</td><td valign="top">4</td><td valign="top"><p>José</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T03</td><td valign="top">Registro con datos incompletos</td><td valign="top">Desarrollar un formulario para manejar intentos de registro con datos incompletos.</td><td valign="top">3</td><td valign="top">Belen</td><td valign="top">Done</td></tr>
+<tr><td rowspan="3" valign="top">E1-US02</td><td rowspan="3" valign="top">Inicio de Sesión de Usuario Registrado</td><td valign="top">T01</td><td valign="top">Inicio de sesión exitoso</td><td valign="top">Desarrollar un formulario para un inicio de sesión exitoso.</td><td valign="top">3</td><td valign="top">Ariana</td><td valign="top">Done</td></tr>
+<tr><td valign="top">T02</td><td valign="top">Inicio de sesión con credenciales incorrectas</td><td valign="top">Desarrollar un formulario para manejar intentos de inicio de sesión con credenciales incorrectas.</td><td valign="top">4</td><td valign="top"><p>Mateo</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T03</td><td valign="top">Intento de inicio de sesión con campos vacíos</td><td valign="top">Desarrollar un formulario para manejar intentos de inicio de sesión con campos vacíos.</td><td valign="top">3</td><td valign="top"><p>Mateo</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E13-US28</td><td rowspan="2" valign="top">Vídeo Sobre el Equipo</td><td valign="top">T01</td><td valign="top">About us Section</td><td valign="top">Desarrollar la Sección About us</td><td valign="top">3</td><td valign="top"><p>Abraham</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T02</td><td valign="top">Integrar vídeo en la sección</td><td valign="top">Implementar la funcionalidad para mostrar el vídeo en la sección "About US" de la página web.</td><td valign="top">3</td><td valign="top"><p>José</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E13-US29</td><td rowspan="2" valign="top">Vídeo Sobre el Producto</td><td valign="top">T01</td><td valign="top">About the product  Section</td><td valign="top">Desarrollar la Sección About the product</td><td valign="top">3</td><td valign="top"><p>Ariana</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T02</td><td valign="top">Integrar vídeo en la sección</td><td valign="top">Implementar la funcionalidad para mostrar el vídeo en la sección "Sobre el Producto" de la página web.</td><td valign="top">1</td><td valign="top"><p>Ariana</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td rowspan="3" valign="top">E14-US30</td><td rowspan="3" valign="top">Soporte para el Idioma Español</td><td valign="top">T01</td><td valign="top">Implementar selector de idioma en la aplicación</td><td valign="top">Desarrollar la funcionalidad para seleccionar el idioma español desde un selector de idioma en la página de inicio.</td><td valign="top">1</td><td valign="top"><p>José</p><p></p></td><td valign="top">In-Process</td></tr>
+<tr><td valign="top">T02</td><td valign="top">Traducir contenido al español</td><td valign="top">Traducir todos los elementos de navegación, contenido, etiquetas, mensajes y texto de ayuda al español.</td><td valign="top">3</td><td valign="top">Belen</td><td valign="top">In-Process</td></tr>
+<tr><td valign="top">T03</td><td valign="top">Integrar traducciones en la aplicación</td><td valign="top">Integrar las traducciones en la aplicación para que el contenido se muestre en español cuando se seleccione.</td><td valign="top">3</td><td valign="top"><p>Ariana</p><p></p></td><td valign="top">In-Process</td></tr>
+<tr><td rowspan="2" valign="top">E10-TS01</td><td rowspan="2" valign="top"><p>Add a Facility through a RESTful API</p><p></p></td><td valign="top">T01</td><td valign="top">Implementar un API Endpoint para Añadir Instalaciones</td><td valign="top">Implementar el endpoint RESTful /api/v1/facilities que permita la adición de nuevas instalaciones</td><td valign="top">4</td><td valign="top"><p>Mateo</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T02</td><td valign="top">Conectar el Formulario de Frontend con el API Endpoint</td><td valign="top">Integrar el formulario de registro de instalaciones con el nuevo API Endpoint.</td><td valign="top">4</td><td valign="top"><p>Mateo</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">E10-TS02</td><td valign="top">Get a Facility by ID through a RESTful API</td><td valign="top">T01</td><td valign="top">Implementar API Endpoint para Obtener Instalaciones por ID</td><td valign="top">Desarrollar el endpoint RESTful /api/v1/facilities/{id} para obtener información específica de una instalación existente o responder con un error si la instalación no existe.</td><td valign="top">3</td><td valign="top"><p>Abraham</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E10-TS03</td><td rowspan="2" valign="top">Add Equipment through a RESTful API</td><td valign="top">T01</td><td valign="top">API Endpoint para Añadir Equipos</td><td valign="top">Desarrollar el endpoint RESTful /api/v1/equipments para permitir el registro de nuevos equipos</td><td valign="top">4</td><td valign="top"><p>Jose</p><p><br><br><br><br></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T02</td><td valign="top">Conectar el Formulario de Frontend para Añadir Equipos</td><td valign="top">Integrar el formulario de añadir equipos en el frontend con el nuevo endpoint API, manejar la validación y errores de duplicidad.</td><td valign="top">3</td><td valign="top"><p>José</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td rowspan="2" valign="top">E10-TS04</td><td rowspan="2" valign="top">Get equipment by ID through a RESTful API</td><td valign="top">T01</td><td valign="top">Implementar API Endpoint para Obtener Equipos por ID</td><td valign="top">` `Desarrollar el endpoint RESTful /api/v1/equipments/{id} para obtener información específica de un equipo existente.</td><td valign="top">3</td><td valign="top"><p>Belen</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">T02</td><td valign="top">Conectar la Funcionalidad de Consulta de Equipos en el Frontend</td><td valign="top">` `Integrar la funcionalidad de consulta de equipos por ID en el frontend, asegurando que se muestren adecuadamente los datos del equipo o un mensaje de error cuando el equipo no exista.</td><td valign="top">3</td><td valign="top"><p>Belen</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">E13-TS22</td><td valign="top">Add Profile through a RESTful API</td><td valign="top">T01</td><td valign="top">Implementar un API Endpoint para Añadir Perfiles</td><td valign="top">Desarrollar el endpoint RESTful /api/v1/profiles que permita añadir nuevos perfiles de usuario</td><td valign="top">4</td><td valign="top"><p>Mateo</p><p></p></td><td valign="top">Done</td></tr>
+<tr><td valign="top">E13-TS23</td><td valign="top">Get Profile by ID through a RESTful API</td><td valign="top">T01</td><td valign="top">Implementar un API Endpoint para Obtener Perfiles por ID</td><td valign="top">Implementar el endpoint RESTful /api/v1/profiles/{profileId} que permita obtener la información de perfiles específicos por su ID.</td><td valign="top">4</td><td valign="top"><p>Mateo</p><p></p></td><td valign="top">Done</td></tr>
+</table>
+
+**5.2.4.3. Development Evidence for Sprint Review.** 
+
+En esta sección incluiremos el registro de los últimos commits realizados en las ramas main y develop respectivamente de los repositorios de nuestra landing page, web application y API en Github.
+
+**Nuestros repositorios:**
+
+- **Landing page: <https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-landing-page>**
+- **Web application: <https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend>**
+- **RESTful API: <https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend>**
+
+<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id </th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Committed on (Date)</th></tr>
+<tr><td rowspan="8" valign="top">rocket-backend</td><td rowspan="8" valign="top">main</td><td valign="top">cc5380539e518b5e012ed34152437fd8bba924a0</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/b921036f64d49fc87d59b387b6c775caf8296c02) [#5](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/5) [from upc-pre-202401-si729-sw53-rocket/develop](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/b921036f64d49fc87d59b387b6c775caf8296c02)</td><td valign="top">-</td><td valign="top">17/06/2024</td></tr>
+<tr><td valign="top">8818cf531925a90229cfec6d133bdaab573d74f5</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/cbd874360b1ad18acadc526b027146f444034e9c) [#4](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/4) [from upc-pre-202401-si729-sw53-rocket/fix/v0.1.0](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/cbd874360b1ad18acadc526b027146f444034e9c)</td><td valign="top">-</td><td valign="top">17/06/2024</td></tr>
+<tr><td valign="top">790f3da162596de33f97547c880b6f2b3b445738</td><td valign="top">[fix: resolve all the incorrect endpoints](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/bdc571254d7fbe1325332df25a94fae4a02b9e22)</td><td valign="top">-</td><td valign="top">14/06/2024</td></tr>
+<tr><td valign="top">b1c4ab4d07a2c3e74e0f4542b23e226124b2e7f4</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/4488f0310c3d4c01fd752f6cc2de3bf8e45cc9c6) [#3](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/3) [from upc-pre-202401-si729-sw53-rocket/develop](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/4488f0310c3d4c01fd752f6cc2de3bf8e45cc9c6)</td><td valign="top">-</td><td valign="top">13/06/2024</td></tr>
+<tr><td valign="top">6c1df31b3142b8af5582cf16e6d7e31a77d4febe</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/6c1df31b3142b8af5582cf16e6d7e31a77d4febe) [#2](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/2) [from upc-pre-202401-si729-sw53-rocket/feature/teacher](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/6c1df31b3142b8af5582cf16e6d7e31a77d4febe)</td><td valign="top">-</td><td valign="top">12/06/2024</td></tr>
+<tr><td valign="top">b921036f64d49fc87d59b387b6c775caf8296c02</td><td valign="top">[feat: add administrator command services](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/790f3da162596de33f97547c880b6f2b3b445738)</td><td valign="top">-</td><td valign="top">12/06/2024</td></tr>
+<tr><td valign="top">cbd874360b1ad18acadc526b027146f444034e9c</td><td valign="top">[feat: add the teacher bounded](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/8818cf531925a90229cfec6d133bdaab573d74f5)</td><td valign="top">-</td><td valign="top">09/06/2024</td></tr>
+<tr><td valign="top">bdc571254d7fbe1325332df25a94fae4a02b9e22</td><td valign="top">[chore: add the main structure](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/cc5380539e518b5e012ed34152437fd8bba924a0)</td><td valign="top">-</td><td valign="top">09/06/2024</td></tr>
+</table>
+
+
+
+5\.2.4.4. Testing Suite Evidence for Sprint Review. 
+
+En el alcance del sprint 3 no se ha desarrollado el funcionalidades referente a testing en el backend API web por lo que no se evidencia testing.
+
+|**Repository**|**Branch**|**Commit Id**|**Commit Message**|**Commit Message Body**|**Commited on (Date)**|
+| :- | :- | :- | :- | :- | :- |
+|||||||
+
+5\.2.4.5. Execution Evidence for Sprint Review. 
+
+Para esta entrega, se realizaron algunos cambios en el frontend según las vistas pendientes. Se puede acceder a la aplicación web mediante el siguiente enlace:  <https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-landing-page>. Además, se ha avanzado con el desarrollo del backend de la aplicación web.
+
+En la landing page se agregaron los videos de About-the-product y About-the-team, para que los visitantes puedan conocer mejor nuestro producto mostrando un video promocional y un video de equipo.
+
+Muestra de nuestra API hecha con C# y .Net: 
+
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.002.png)
+
+5\.2.4.6. Services Documentation Evidence for Sprint Review. 
+
+Para el desarrollo de este sprint tuvimos que arreglar la forma como estaban llamados 2 de nuestros endpoints, pues estos no representaban buenas prácticas de desarrollo además de su debido testeo. Se adjunta el link de nuestro backend correctamente desplegado usando el servicio gratuito Railway: <https://rocket-organize-backend.up.railway.app/swagger/index.html>
+
+
+
+
+
+
+|**Bounded Context**|Classroom||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+|Administrator|api/v1/administrator|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.003.png)|
+|Classroms|api/v1/classrooms|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.004.png)|
+|Courses|api/v1/courses|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.005.png)|
+
+|**Bounded Context**|Teacher||
+| :- | :- | :- |
+|**Entity**|**Endpoint URL**|**Swagger**|
+|Attendances|api/v1/attendances|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.006.png)|
+|Grades|api/v1/grades|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.007.png)|
+|InfrastructureReport|api/v1/infrastructure-report|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.008.png)|
+|Inventory|api/v1/inventory|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.009.png)|
+|Teacher|api/v1/teacher|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.010.png)|
+
+5\.2.4.7. Software Deployment Evidence for Sprint Review. 
+
+Primero ingresamos a railway.com y nos logueamos para después poder llegar a esta sección en la que haremos click en start a new project.
+
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.011.png)
+
+Después en la siguiente pantalla presionaremos en la opción “Deploy MySQL”.
+
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.012.png)
+
+En la siguiente sección nos saldrán una serie de opciones de configuración para nuestro archivo ‘appsettings.json’ que tendremos que actualizar.
+
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.013.png)
+
+Tras haber hecho eso solo presionaremos en ‘Run Code’ en Rider y se desplegará la base de datos y la lógica de backend en 2 servicios que estarán interconectados.
+
+5\.2.4.8. Team Collaboration Insights during Sprint. 
+
+Durante este sprint, al igual que para el desarrollo de la landing page, para proteger la rama “main” creamos una rama “develop” de la que cada integrante de nuestro grupo creó su propia sub-rama “feature“ para subir un capítulo del reporte siguiendo las convenciones antes señaladas(conventional commit y git flow).
+
+**Github analytics de nuestro tercer sprint:** 
+
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.014.png)
+
+**5.3. Validation Interviews**
 
 Después de haber actualizado nuestras secciones de frontend y backend, vamos a llevar a cabo una serie de entrevistas para validar cómo se comporta nuestro software cuando lo usan nuestros usuarios objetivo.
 
-### **5.3.1. Diseño de entrevistas**
+**5.3.1. Diseño de entrevistas**
 
 **Preguntas Generales para Profesores y Equipo Administrativo:**
 
@@ -2831,13 +2977,13 @@ Después de haber actualizado nuestras secciones de frontend y backend, vamos a 
 - ¿Qué tipo de dispositivo utiliza con más frecuencia en su labor educativa/administrativa?
 - ¿Hay algún navegador que prefiera usar para nuestras futuras optimizaciones de la aplicación?
 
-### **5.3.2. Registro de Entrevistas**
+**5.3.2. Registro de Entrevistas**
 
 En esta sección, se proporciona el registro detallado de las entrevistas realizadas de cada segmento objetivo. Para acceder a todas las entrevistas completas, se facilita el enlace correspondiente para su visualización en Microsoft Stream: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3> 
 
 **Segmento objetivo #1: Profesores**
 
-**Entrevista #1:**
+**Entrevista #1:** 
 
 
 
@@ -2845,13 +2991,13 @@ En esta sección, se proporciona el registro detallado de las entrevistas realiz
 
 **Edad:** 39 años
 
-**Ubicación:** Paiján, provincia de Ascope, en la Libertad
+**Ubicación:**  Paiján, provincia de Ascope, en la Libertad 
 
 **Ocupación:** Profesor de matemáticas en una institución privada de Paiján
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.018.png)
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.015.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
 
 **Tiempo de la Entrevista:** Comienzo: 00:00 - Fin: 10:27
 
@@ -2871,7 +3017,7 @@ En términos de optimización técnica, recomendó adaptar la aplicación para s
 
 La entrevista revela la necesidad de mejoras en la usabilidad y funcionalidad de la aplicación RocketNotes, con énfasis en la comunicación con los padres y la optimización del registro de asistencia. 
 
-**Entrevista #2:**
+**Entrevista #2:** 
 
 **Nombre:** Tatiana Cabrera Goicoechea
 
@@ -2881,9 +3027,9 @@ La entrevista revela la necesidad de mejoras en la usabilidad y funcionalidad de
 
 **Ocupación:** Docente del nivel secundario
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.019.png)
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.016.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
 
 **Tiempo de la Entrevista:** Comienzo: 10:28 - Fin: 19:02
 
@@ -2912,9 +3058,9 @@ La entrevista con la profesora Tatiana Cabrera Goicoechea destaca la necesidad d
 
 **Ocupación:** Docente en un colegio particular de Paiján
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.020.png)
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.017.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
 
 **Tiempo de la Entrevista:** Comienzo: 19:03 - Fin: 26:58
 
@@ -2922,7 +3068,7 @@ La entrevista con la profesora Tatiana Cabrera Goicoechea destaca la necesidad d
 
 Juan Carlos Rodríguez Carrión, de 35 años, es docente del área de matemáticas en nivel secundario y preuniversitario. Utiliza principalmente dispositivos con sistema operativo Android, alternando entre celular y laptop para su labor educativa. Prefiere el navegador Google Chrome para sus tareas diarias. Durante la entrevista, se le presentó la landing page de RocketNotes y luego la aplicación, accesible desde dicha landing page.
 
-El profesor encontró la página de inicio interesante y bien organizada, destacando la opción de visualización en dos idiomas (español e inglés). Respecto al contenido de la aplicación, consideró que las funciones y características presentadas son útiles y relevantes para su labor educativa. Apreció la posibilidad de enviar información directamente a los padres de familia y destacó la utilidad de las funcionalidades de notas y asistencia.
+El profesor encontró la página de inicio interesante y bien organizada, destacando la opción de visualización en dos idiomas (español e inglés). Respecto al contenido de la aplicación, consideró que las funciones y características presentadas son útiles y relevantes para su labor educativa. Apreció la posibilidad de enviar información directamente a los padres de familia y destacó la utilidad de las funcionalidades de notas y asistencia.
 
 **Necesidades y Mejoras Identificadas**
 Juan Carlos no identificó mejoras específicas en las funcionalidades presentadas, pero confirmó que la capacidad de editar notas y agregar descripciones específicas para participación, cuadernos y exámenes es muy útil. Considera que la aplicación es clara y fácil de usar, con íconos suficientemente grandes para ser observados fácilmente.
@@ -2934,7 +3080,7 @@ Juan Carlos no identificó mejoras específicas en las funcionalidades presentad
 
 **Segmento objetivo #2: Equipo Administrativo**
 
-**Entrevista #1:**
+**Entrevista #1:** 
 
 **Nombre:** Graciela del Rocío Ríos Alza
 
@@ -2944,9 +3090,9 @@ Juan Carlos no identificó mejoras específicas en las funcionalidades presentad
 
 **Ocupación:** Promotora de una institución educativa
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.021.png)
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.018.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
 
 **Tiempo de la Entrevista:** Comienzo: 26:59 - Fin: 35:57
 
@@ -2967,19 +3113,19 @@ Para mejorar la funcionalidad y la usabilidad de la aplicación, Graciela sugier
 
 La entrevista con Graciela Rocío Ríos Alza destaca la necesidad de incorporar mejoras específicas en la diferenciación de niveles educativos y la inclusión de mensajes de confirmación.
 
-**Entrevista #2:**
+**Entrevista #2:** 
 
 **Nombre:** Paul Ramos Chumpitazi
 
-**Edad:** 54 años
+**Edad:** 54** años
 
 **Ubicación:** La Libertad, Paijan
 
 **Ocupación:** Docente del nivel secundario, además de desempeñarse en la parte administrativa de una institución educativa
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.022.png)
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.019.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
 
 **Tiempo de la Entrevista:** Comienzo: 35:59 - Fin: 48:36
 
@@ -2998,7 +3144,7 @@ Para mejorar la funcionalidad y la usabilidad de la aplicación, Paul sugiere:
 
 La entrevista con Ramón Chumpitazi, Max Paul, destaca la necesidad de incorporar mejoras específicas en la asignación de profesores por grado, la implementación de una bitácora electrónica, y el acceso para padres a información relevante. 
 
-**Entrevista #3:**
+**Entrevista #3:** 
 
 **Nombre:** Juliana Gisela Chávez Pozo
 
@@ -3008,11 +3154,11 @@ La entrevista con Ramón Chumpitazi, Max Paul, destaca la necesidad de incorpora
 
 **Ocupación:** Docente y directora de un colegio privado
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.023.png)
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.020.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
 
-**Tiempo de la Entrevista:** Comienzo: 48:38 - Fin: 58:33
+**Tiempo de la Entrevista:** Comienzo: 48:38 - Fin:  58:33
 
 **Resumen:**
 
@@ -3031,7 +3177,7 @@ Para mejorar la funcionalidad y la usabilidad de la aplicación, Julián sugiere
 
 La entrevista con Julián Chávez Pozo destaca la necesidad de incorporar mejoras específicas en la coordinación de disciplina, acceso para padres y notificaciones en tiempo real. 
 
-### **5.3.3. Evaluaciones según heurísticas**
+**5.3.3. Evaluaciones según heurísticas**
 
 **UX Heuristics & Principles Evaluation**
 
@@ -3045,7 +3191,7 @@ La entrevista con Julián Chávez Pozo destaca la necesidad de incorporar mejora
 
 **PROFESORES:** Todos
 
-**AUDITOR:** Nombre del Grupo que ejecuta la Sesión de evaluación
+**AUDITOR:** Rocket
 
 **CLIENTE(S):** Profesores y personal administrativo
 
@@ -3069,12 +3215,12 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
-| **Nivel**|**Descripción**|
-|:--------| :- |
-| 1       |Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
-| 2       |Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase|
-| 3       |Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
-| 4       |Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+|**Nivel** |**Descripción**|
+| :- | :- |
+|1|Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
 
 **TABLA RESUMEN:**
 
@@ -3115,55 +3261,84 @@ Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 - **Problema:** Los nuevos usuarios enfrentan un proceso de registro que puede ser confuso y tedioso debido a la cantidad de pasos necesarios y la falta de instrucciones claras, lo que puede desalentar la continuación del proceso y afectar la adquisición de usuarios.
 - **Recomendación:** Simplificar el formulario de registro, reduciendo el número de campos requeridos y proporcionando una guía paso a paso en pantalla o asistencia contextual que ayude a los usuarios a completarlo fácilmente.
 
-## **5.4 Video About-the-Product.**
+**5.4. Video About-the-Product**
 
-**VIDEO ABOUT-THE-PRODUCT:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218475_upc_edu_pe/EWJ9rGyfnBNHm3mUvE0BycABa5W-JSgjnhxMuImYeBPvmw?e=ZaDTdP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+En este video que se presenta a continuación, nosotros, el equipo de Rocket, describimos el contenido de nuestra aplicación Rocket Notes. Este video está dirigido tanto a los visitantes de nuestra landing page, que desean conocer sobre nuestro modelo de negocio y las características principales de nuestro software, como a los usuarios de las aplicaciones que buscan realizar tareas relacionadas con los procesos soportados por nuestra solución.
 
-**VIDEO ABOUT-THE-PRODUCT EN YOUTUBE:** <https://youtu.be/WNVmO3btpIg>
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.021.png)
 
-**Conclusiones**
+**URLs de las versiones publicadas**
+
+- **YouTube:[ ](https://www.youtube.com/watch?v=BBK-fJ7rDvoLWWiebhDi0Djb-LZJNoVNhn4LXPbQS8Y)<https://youtu.be/7zsjHnD4HE8>** 
+- **Microsoft Stream: <https://lc.cx/t-SmDA>**
+
+**Conclusiones:**
 
 - Realizar un producto de esta magnitud significó un desafío para todo el equipo debido a la alta competitividad en otros sectores. Sin embargo, logramos hacer un producto destacable e interesante en la industria. Gracias a la landing page que captará la atención de gente interesada en ver nuestro producto, hay altas posibilidades de contactarnos para trabajar en equipo y así aumentar nuestra visibilidad en la industria. Por supuesto, para ello se investigó y analizó la competencia más destacable para nosotros y así ofrecer funciones interesantes o cuanto menos, prácticas para lograr destacarse y hacer un negocio rentable.
+
+
 
 
 - A lo largo de este proceso, hemos empleado técnicas avanzadas de mapeo de experiencia del usuario como son el As-is y To-be Scenario Mappings, así como User Journey Mapping, para profundizar en las necesidades y desafíos enfrentados por nuestros usuarios ideales. Estas herramientas han sido fundamentales para identificar y abordar puntos críticos, facilitando la iteración y mejora continua de plataformas de gestión escolar. Permitiéndonos diseñar soluciones más efectivas y centradas en el usuario, mejorando significativamente la interacción con las herramientas digitales en el ámbito educativo.
 
 
+
+
 - Para concluir, este proyecto de "RocketNotes" ha demostrado ser una amalgama de innovación, colaboración y compromiso, resultando en una herramienta significativamente transformadora para la gestión educativa. La aplicación no solo aborda los desafíos contemporáneos de las instituciones educativas mediante la automatización y optimización de procesos, sino que también empodera a profesores y administradores al simplificar las tareas administrativas y académicas. La validación a través de pruebas de usabilidad ha confirmado la eficacia de la interfaz y la experiencia del usuario, reflejando una mejora notable en la eficiencia y satisfacción de los usuarios finales. Este proyecto no solo ha cumplido con las expectativas establecidas, sino que ha sentado un precedente sobre cómo la tecnología aplicada inteligentemente puede revolucionar el entorno educativo, anticipando una adopción más amplia en futuras aplicaciones educativas.
 
+**Video about the team:**
 
-**VIDEO ABOUT-THE-TEAM:** <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EajSOaCfssNKoVucu5F4CxoBpxe_KdjYZ9Gy46Dds4g-0w?e=1oXNNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+En esta sección, se elaborará un resumen de los aspectos más relevantes del video "About-The-Team". A continuación, se presenta la pauta de secuencias de contenido, incluyendo el tiempo de inicio de cada sección dentro del video (hh:mm:ss), un cuadro de video representativo, y los enlaces a las versiones publicadas en Microsoft Stream y YouTube.
 
+1. **[00:00:01 - 00:00:42]**
+   1. **Mateo Alejandro Vilchez Rios (Líder del equipo)**: Mateo introduce el proyecto, resaltando el uso de tecnologías como Vue y C#. Donde enfatiza la dedicación y profesionalidad del equipo, superando diversos desafíos.
+1. **[00:00:44 - 00:01:42]**
+   1. **Abraham Ayquipa Ubaldo**: Abraham explica que está enfocado en optimizar procesos en instituciones educativas para profesores y miembros administrativos. Describe su rol como desarrollador, trabajando tanto en el frontend como en el back-end.
+1. **[00:01:45 - 00:02:42]**
+   1. **Jose Carlo Mayuri Armas:** José detalla su responsabilidad en el desarrollo web, utilizando frameworks modernos y creando APIs robustas. Habla sobre la efectiva comunicación y colaboración del equipo a través de WhatsApp y Discord.
+1. **[00:02:43 - 00:03:30]**
+   1. **Belén del Rocío Ramos Ríos**: Belén comenta sobre su contribución en el desarrollo del frontend y algunas funcionalidades clave de la aplicación, además de la integración de la base de datos. Menciona cómo la comunicación constante con el equipo fue esencial para su crecimiento profesional.
+1. **[00:03:32 - 00:04:01]**
+   1. **Ariana Vargas Revollé:** Ariana describe su papel en la documentación del proyecto y el desarrollo de pantallas frontend y elementos backend. Destaca la experiencia positiva y el producto final como funcional e interesante.
+
+**URLs de las versiones publicadas**
+
+![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.022.png)
+
+- **Microsoft Stream**: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EajSOaCfssNKoVucu5F4CxoBpxe_KdjYZ9Gy46Dds4g-0w?e=1oXNNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
+- **YouTube:[** ](https://www.youtube.com/watch?v=BBK-fJ7rDvoLWWiebhDi0Djb-LZJNoVNhn4LXPbQS8Y)**https://youtu.be/f2sWz2a53yA
 
 **Bibliografía**
 
-Smith, J., & Doe, J. "Enhancing Efficiency in Education through Learning Management Systems: A Case Study of the Blackboard System." Educational Technology Research and Development, vol. 65, no. 4, 2017, pp. 1023-1039.
+Smith, J., & Doe, J. “Enhancing Efficiency in Education through Learning Management Systems: A Case Study of the Blackboard System.” Educational Technology Research and Development, vol. 65, no. 4, 2017, pp. 1023-1039. 
 
-### **Anexos**
+Vernon, V. (2013). *Implementing Domain-Driven Design*. Addison-Wesley. ISBN: 978-0321834577.
 
-**Anexo A**
+Cohn, M. (2004). *User Stories Applied: For Agile Software Development*. Addison-Wesley Professional. ISBN: 978-0321205681.
 
-Anexo B: C4 MODEL: <http://c4model.com>
+Gothelf, J., & Seiden, J. (2016). *Lean UX: Designing Great Products with Agile Teams* (2nd ed.). O'Reilly Media. ISBN: 978-1491953600.
 
-Anexo C: LINK FIGMA: <https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1>
+Postman, Inc. (2020). *Postman API Platform*. Retrieved from[ https://www.postman.com/](https://www.postman.com/)
 
-Anexo D: LINK LANDING PAGE: <https://upc-pre-202401-si729-sw53-rocket-land.netlify.app/>
+Lindsay, J. (2013). *The JSON Data Interchange Format*. ECMA International. Retrieved from <https://www.ecma-international.org/publications-and-standards/standards/ecma-404/>
 
-Anexo E: LINK TRELLO: <https://trello.com/b/fHKD9Uys/product-backlog>
+**Anexos**
 
-Anexo F:LINK LEAN UX CANVAS: <https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253>
+**Anexo A: Videos de Exposiciones**
 
-LINK FIGMA: <https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1>
+- TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0> 
+- TP:
 
-**Anexo: Videos de Exposiciones y Aplicación**
+  <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
 
-LINK DE LA APLICACIÓN WEB:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://rocket-organize.netlify.app>
+**Anexo B:** C4 MODEL: <http://c4model.com>
 
-TB1: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202216246_upc_edu_pe/EREQPmYR2BxBkGc52WayfAMBBkCHIl8dyeu_t1q48w0TNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a6uCG0> 
+**Anexo C:** LINK FIGMA: <https://www.figma.com/file/pBcefWno0VR16AEy7elc2m/Open-Source?type=design&node-id=0%3A1&mode=design&t=BmgtN82Ieketfpvn-1>
 
-TP: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EalYVFLT_u9Foh-h3DSs1vEBuWAwCWUApKzeBxTWFZOGmA?e=JEZ8BG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D> 
+**Anexo D:** LINK LANDING PAGE: <https://upc-pre-202401-si729-sw53-rocket-land.netlify.app/>
 
-TB3: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EVciCGnbdnBOoemFWmQcSjoBNAtDT6NezH1ROJj2ukuV8g?e=7gC67n&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+**Anexo E:** LINK TRELLO: <https://trello.com/b/fHKD9Uys/product-backlog>
 
-VIDEO ABOUT-THE-TEAM: <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210059_upc_edu_pe/EajSOaCfssNKoVucu5F4CxoBpxe_KdjYZ9Gy46Dds4g-0w?e=1oXNNq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>
+**Anexo F:**LINK LEAN UX CANVAS: <https://miro.com/welcomeonboard/NEdsWTNwa0FKdWVGUmlFUEJ6R3dldkpBRHNxRmNIeEdhNWVDNHhoRnBlZENuSElYbm1hN3JjNFNwOUJpdUIzWHwzNDU4NzY0NTIzMzkyNDUwNjk1fDI=?share_link_id=776423401253>
 
+**Anexo G :** Link de la aplicación web:[ ](https://echero11.github.io/OpenSource_GasYa_LandingPage/)<https://rocket-organize.netlify.app>
