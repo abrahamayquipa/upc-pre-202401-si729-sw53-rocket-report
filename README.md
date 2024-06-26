@@ -2665,9 +2665,9 @@ Y final solo presionar el botón con el nombre de proyecto a desplegar
 
 ![ref5]
 
-### **5.2.3. Sprint**
+5\.2.3. Sprint 3
 
-#### **5.2.3.1. Sprint Planning 3**
+5\.2.3.1. Sprint Planning 3
 
 A continuación, se mostrará el tercer sprint planning, en el cual se exhibirán la planificación e implementación de la sección backend del proyecto. Además, de los progresos y los insights sobre la colaboración del equipo utilizando Github.
 
@@ -2686,13 +2686,13 @@ A continuación, se mostrará el tercer sprint planning, en el cual se exhibirá
 |Sprint 1 Velocity|4|
 |Sum of Story Points|4|
 
-#### **5.2.3.2. Sprint Backlog 3**
+**5.2.3.2. Sprint Backlog 3**
 
 En esta sección se presentan los tasks realizados durante el actual Sprint.
 
 **Trello: <https://trello.com/b/fHKD9Uys/product-backlog>**
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.001.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.001.png)
 
 |**Id**|**Title**|**Description**|**Estimation (Hours)**|**Assigned To**|**Status**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -2717,7 +2717,8 @@ En esta sección se presentan los tasks realizados durante el actual Sprint.
 |TS06|Endpoint para gestionar cursos|Desarrollo de una API para la gestión completa de cursos, incluyendo asignación de profesores y horarios.|12|Belen|Done|
 |TS07|Endpoint para asignación de aulas y horarios|Implementación de una API para la asignación dinámica de aulas y horarios según las necesidades del plan de estudios.|15|Jose|Done|
 
-#### **5.2.3.3. Development Evidence for Sprint Review.**
+5\.2.3.3. Development Evidence for Sprint Review.
+
 
 
 <table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id</th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Committed on (Date)</th></tr>
@@ -2747,65 +2748,65 @@ En este sprint logramos como tercera fase de nuestro producto final, desarrollar
 
 Pantalla de muestra de la respuesta de nuestras pruebas a la API hecha con C#:
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.002.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.002.png)
 
 Video que ilustra y explica la visualización y navegación logrados en este Sprint.
 
 Video:
 
-#### **5.2.3.6. Services Documentation Evidence for Sprint Review.**
+5\.2.3.6. Services Documentation Evidence for Sprint Review.
 
 Para este sprint utilizamos los servicios de la API que nosotros mismos hicimos con Java en Spring Boot. A continuación, mostramos todos los endpoints realizados por nuestro equipo por cada Bounded Context correctamente documentados en Swagger.
 
 |**Bounded Context**|Classroom||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-|Administrator|api/v1/administrator|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.003.png)|
-|Classroms|api/v1/classrooms|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.004.png)|
-|Courses|api/v1/courses|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.005.png)|
+|Administrator|api/v1/administrator|![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.003.png)|
+|Classroms|api/v1/classrooms|![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.004.png)|
+|Courses|api/v1/courses|![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.005.png)|
 
 |**Bounded Context**|Teacher||
 | :- | :- | :- |
 |**Entity**|**Endpoint URL**|**Swagger**|
-|Attendances|api/v1/attendances|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.006.png)|
-|Grades|api/v1/grades|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.007.png)|
-|InfrastructureReport|api/v1/infrastructure-report|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.008.png)|
-|Inventory|api/v1/inventory|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.009.png)|
-|Teacher|api/v1/teacher|![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.010.png)|
+|Attendances|api/v1/attendances|![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.006.png)|
+|Grades|api/v1/grades|![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.007.png)|
+|InfrastructureReport|api/v1/infrastructure-report|![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.008.png)|
+|Inventory|api/v1/inventory|![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.009.png)|
+|Teacher|api/v1/teacher|![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.010.png)|
 
-#### **5.2.3.7.** Software Deployment Evidence for Sprint Review.
+5\.2.3.7. Software Deployment Evidence for Sprint Review.
 
 Primero ingresamos a railway.com y nos logueamos para después poder llegar a esta sección en la que haremos click en start a new project.
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.011.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.011.png)
 
 Después en la siguiente pantalla presionaremos en la opción “Deploy MySQL”.
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.012.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.012.png)
 
 En la siguiente sección nos saldrán una serie de opciones de configuración para nuestro archivo ‘appsettings.json’ que tendremos que actualizar.
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.013.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.013.png)
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.014.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.014.png)
 
 Tras haber hecho eso solo presionaremos en ‘Run Code’ en Rider y se desplegará la base de datos y la lógica de backend en 2 servicios que estarán interconectados.
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.015.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.015.png)
 
 Cabe recalcar que llegados a este punto como resultado obtendremos una url que nos servirá para poder usarla desde el FrontEnd y así poder interactuar con la data que necesitemos.
 
-#### **5.2.3.8.** Team Collaboration Insights during Sprint.
+5\.2.3.8. Team Collaboration Insights during Sprint.
 
 Durante este sprint, al igual que para el desarrollo de la landing page, para proteger la rama “main” creamos una rama “develop” de la que cada integrante de nuestro grupo creó su propia sub-rama “feature“ para subir un capítulo del reporte siguiendo las convenciones antes señaladas(conventional commit y git flow).
 
 **Github analytics de nuestro tercer sprint:**
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.016.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.016.png)
 
-![](assets/Aspose.Words.b8ab174b-171a-4374-8f54-afcfd69756c8.017.png)
+![](assets/Aspose.Words.29e03f65-1784-4871-a7e5-749b4d302109.017.png)
 
-**5.2.4. Sprint  4**
+**5.2.4. Sprint 4**
 
 **5.2.4.1. Sprint Planning 4**
 
@@ -2817,7 +2818,7 @@ A continuación, se mostrará el cuarto sprint planning, en el cual se exhibirá
 |Date|22 de junio de 2024|
 |Time|12:43 horas (GMT -5)|
 |Location|Modalidad remota a través de WhatsApp|
-|Prepared By|Vilchez Rios Mateo Alejandro, |
+|Prepared By|Vilchez Rios Mateo Alejandro,|
 |Attendees (to planning meeting)|<p>Ayquipa Ubaldo, Abraham Israel/</p><p>Mayurí Armas, Jose Carlo/</p><p>Ramos Rios, Belen del Rocio/</p><p>Vilchez Rios, Mateo Alejandro/</p><p>Vargas Revollé, Ariana </p>|
 |Sprint 3 Review Summary|En el Sprint anterior, se logró una integración exitosa entre el frontend y el backend, agregando autenticación mediante JWT. Esto marcó un avance significativo en la seguridad y manejo de sesiones de la aplicación.|
 |Sprint 3 Retrospective Summary|Se identificó la necesidad de realizar pruebas para verificar que todos los endpoints están funcionando correctamente. La retroalimentación del equipo apuntó hacia la mejora en los procesos de testing y validación para evitar fallos en producción.|
@@ -2826,13 +2827,13 @@ A continuación, se mostrará el cuarto sprint planning, en el cual se exhibirá
 |Sprint 4 Velocity|70 Story Points|
 |Sum of Story Points|69 Story Points|
 
-**5.2.4.2. Sprint Backlog  4**
+**5.2.4.2. Sprint Backlog 4**
 
 El Sprint #4 se centra en robustecer la experiencia de usuario en nuestra plataforma mediante la mejora y expansión de las funcionalidades de registro y sesión de usuario, la integración de videos informativos sobre el equipo y el producto, así como la implementación de soporte multilingüe. Este sprint ha sido crucial para asegurar una interacción fluida y accesible para nuestros usuarios, abordando desde el registro y la autenticación hasta la personalización del contenido según las preferencias lingüísticas del usuario.
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.001.png)
 
-**Trello: <https://trello.com/b/uNj2D9JW>**  
+**Trello: <https://trello.com/b/uNj2D9JW>**
 
 <table><tr><th colspan="2" valign="top"><b>Sprint #4</b></th><th colspan="6" valign="top"><b>Sprint 4</b></th></tr>
 <tr><td colspan="2" valign="top"><b>User Story</b></td><td colspan="6" valign="top"><b>Work-Item / Task</b></td></tr>
@@ -2861,7 +2862,7 @@ El Sprint #4 se centra en robustecer la experiencia de usuario en nuestra plataf
 <tr><td valign="top">E13-TS23</td><td valign="top">Get Profile by ID through a RESTful API</td><td valign="top">T01</td><td valign="top">Implementar un API Endpoint para Obtener Perfiles por ID</td><td valign="top">Implementar el endpoint RESTful /api/v1/profiles/{profileId} que permita obtener la información de perfiles específicos por su ID.</td><td valign="top">4</td><td valign="top"><p>Mateo</p><p></p></td><td valign="top">Done</td></tr>
 </table>
 
-**5.2.4.3. Development Evidence for Sprint Review.** 
+**5.2.4.3. Development Evidence for Sprint Review.**
 
 En esta sección incluiremos el registro de los últimos commits realizados en las ramas main y develop respectivamente de los repositorios de nuestra landing page, web application y API en Github.
 
@@ -2871,7 +2872,7 @@ En esta sección incluiremos el registro de los últimos commits realizados en l
 - **Web application: <https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-frontend>**
 - **RESTful API: <https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend>**
 
-<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id </th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Committed on (Date)</th></tr>
+<table><tr><th valign="top">Repository</th><th valign="top">Branch</th><th valign="top">Commit Id</th><th valign="top">Commit Message</th><th valign="top">Commit Message Body</th><th valign="top">Committed on (Date)</th></tr>
 <tr><td rowspan="8" valign="top">rocket-backend</td><td rowspan="8" valign="top">main</td><td valign="top">cc5380539e518b5e012ed34152437fd8bba924a0</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/b921036f64d49fc87d59b387b6c775caf8296c02) [#5](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/5) [from upc-pre-202401-si729-sw53-rocket/develop](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/b921036f64d49fc87d59b387b6c775caf8296c02)</td><td valign="top">-</td><td valign="top">17/06/2024</td></tr>
 <tr><td valign="top">8818cf531925a90229cfec6d133bdaab573d74f5</td><td valign="top">[Merge pull request](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/cbd874360b1ad18acadc526b027146f444034e9c) [#4](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/pull/4) [from upc-pre-202401-si729-sw53-rocket/fix/v0.1.0](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/cbd874360b1ad18acadc526b027146f444034e9c)</td><td valign="top">-</td><td valign="top">17/06/2024</td></tr>
 <tr><td valign="top">790f3da162596de33f97547c880b6f2b3b445738</td><td valign="top">[fix: resolve all the incorrect endpoints](https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-backend/commit/bdc571254d7fbe1325332df25a94fae4a02b9e22)</td><td valign="top">-</td><td valign="top">14/06/2024</td></tr>
@@ -2884,7 +2885,7 @@ En esta sección incluiremos el registro de los últimos commits realizados en l
 
 
 
-5\.2.4.4. Testing Suite Evidence for Sprint Review. 
+5\.2.4.4. Testing Suite Evidence for Sprint Review.
 
 En el alcance del sprint 3 no se ha desarrollado el funcionalidades referente a testing en el backend API web por lo que no se evidencia testing.
 
@@ -2892,17 +2893,17 @@ En el alcance del sprint 3 no se ha desarrollado el funcionalidades referente a 
 | :- | :- | :- | :- | :- | :- |
 |||||||
 
-5\.2.4.5. Execution Evidence for Sprint Review. 
+5\.2.4.5. Execution Evidence for Sprint Review.
 
-Para esta entrega, se realizaron algunos cambios en el frontend según las vistas pendientes. Se puede acceder a la aplicación web mediante el siguiente enlace:  <https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-landing-page>. Además, se ha avanzado con el desarrollo del backend de la aplicación web.
+Para esta entrega, se realizaron algunos cambios en el frontend según las vistas pendientes. Se puede acceder a la aplicación web mediante el siguiente enlace:<https://github.com/upc-pre-202401-si729-sw53-rocket/rocket-landing-page>. Además, se ha avanzado con el desarrollo del backend de la aplicación web.
 
 En la landing page se agregaron los videos de About-the-product y About-the-team, para que los visitantes puedan conocer mejor nuestro producto mostrando un video promocional y un video de equipo.
 
-Muestra de nuestra API hecha con C# y .Net: 
+Muestra de nuestra API hecha con C# y .Net:
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.002.png)
 
-5\.2.4.6. Services Documentation Evidence for Sprint Review. 
+5\.2.4.6. Services Documentation Evidence for Sprint Review.
 
 Para el desarrollo de este sprint tuvimos que arreglar la forma como estaban llamados 2 de nuestros endpoints, pues estos no representaban buenas prácticas de desarrollo además de su debido testeo. Se adjunta el link de nuestro backend correctamente desplegado usando el servicio gratuito Railway: <https://rocket-organize-backend.up.railway.app/swagger/index.html>
 
@@ -2927,7 +2928,7 @@ Para el desarrollo de este sprint tuvimos que arreglar la forma como estaban lla
 |Inventory|api/v1/inventory|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.009.png)|
 |Teacher|api/v1/teacher|![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.010.png)|
 
-5\.2.4.7. Software Deployment Evidence for Sprint Review. 
+5\.2.4.7. Software Deployment Evidence for Sprint Review.
 
 Primero ingresamos a railway.com y nos logueamos para después poder llegar a esta sección en la que haremos click en start a new project.
 
@@ -2943,11 +2944,11 @@ En la siguiente sección nos saldrán una serie de opciones de configuración pa
 
 Tras haber hecho eso solo presionaremos en ‘Run Code’ en Rider y se desplegará la base de datos y la lógica de backend en 2 servicios que estarán interconectados.
 
-5\.2.4.8. Team Collaboration Insights during Sprint. 
+5\.2.4.8. Team Collaboration Insights during Sprint.
 
 Durante este sprint, al igual que para el desarrollo de la landing page, para proteger la rama “main” creamos una rama “develop” de la que cada integrante de nuestro grupo creó su propia sub-rama “feature“ para subir un capítulo del reporte siguiendo las convenciones antes señaladas(conventional commit y git flow).
 
-**Github analytics de nuestro tercer sprint:** 
+**Github analytics de nuestro tercer sprint:**
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.014.png)
 
@@ -2983,7 +2984,7 @@ En esta sección, se proporciona el registro detallado de las entrevistas realiz
 
 **Segmento objetivo #1: Profesores**
 
-**Entrevista #1:** 
+**Entrevista #1:**
 
 
 
@@ -2991,13 +2992,13 @@ En esta sección, se proporciona el registro detallado de las entrevistas realiz
 
 **Edad:** 39 años
 
-**Ubicación:**  Paiján, provincia de Ascope, en la Libertad 
+**Ubicación:** Paiján, provincia de Ascope, en la Libertad
 
 **Ocupación:** Profesor de matemáticas en una institución privada de Paiján
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.015.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
 
 **Tiempo de la Entrevista:** Comienzo: 00:00 - Fin: 10:27
 
@@ -3017,7 +3018,7 @@ En términos de optimización técnica, recomendó adaptar la aplicación para s
 
 La entrevista revela la necesidad de mejoras en la usabilidad y funcionalidad de la aplicación RocketNotes, con énfasis en la comunicación con los padres y la optimización del registro de asistencia. 
 
-**Entrevista #2:** 
+**Entrevista #2:**
 
 **Nombre:** Tatiana Cabrera Goicoechea
 
@@ -3029,7 +3030,7 @@ La entrevista revela la necesidad de mejoras en la usabilidad y funcionalidad de
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.016.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
 
 **Tiempo de la Entrevista:** Comienzo: 10:28 - Fin: 19:02
 
@@ -3060,7 +3061,7 @@ La entrevista con la profesora Tatiana Cabrera Goicoechea destaca la necesidad d
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.017.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
 
 **Tiempo de la Entrevista:** Comienzo: 19:03 - Fin: 26:58
 
@@ -3080,7 +3081,7 @@ Juan Carlos no identificó mejoras específicas en las funcionalidades presentad
 
 **Segmento objetivo #2: Equipo Administrativo**
 
-**Entrevista #1:** 
+**Entrevista #1:**
 
 **Nombre:** Graciela del Rocío Ríos Alza
 
@@ -3092,7 +3093,7 @@ Juan Carlos no identificó mejoras específicas en las funcionalidades presentad
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.018.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
 
 **Tiempo de la Entrevista:** Comienzo: 26:59 - Fin: 35:57
 
@@ -3113,7 +3114,7 @@ Para mejorar la funcionalidad y la usabilidad de la aplicación, Graciela sugier
 
 La entrevista con Graciela Rocío Ríos Alza destaca la necesidad de incorporar mejoras específicas en la diferenciación de niveles educativos y la inclusión de mensajes de confirmación.
 
-**Entrevista #2:** 
+**Entrevista #2:**
 
 **Nombre:** Paul Ramos Chumpitazi
 
@@ -3125,7 +3126,7 @@ La entrevista con Graciela Rocío Ríos Alza destaca la necesidad de incorporar 
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.019.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
 
 **Tiempo de la Entrevista:** Comienzo: 35:59 - Fin: 48:36
 
@@ -3144,7 +3145,7 @@ Para mejorar la funcionalidad y la usabilidad de la aplicación, Paul sugiere:
 
 La entrevista con Ramón Chumpitazi, Max Paul, destaca la necesidad de incorporar mejoras específicas en la asignación de profesores por grado, la implementación de una bitácora electrónica, y el acceso para padres a información relevante. 
 
-**Entrevista #3:** 
+**Entrevista #3:**
 
 **Nombre:** Juliana Gisela Chávez Pozo
 
@@ -3156,9 +3157,9 @@ La entrevista con Ramón Chumpitazi, Max Paul, destaca la necesidad de incorpora
 
 ![](assets/Aspose.Words.62b98359-9ebe-4f41-9b77-cbfc8d27d7ff.020.png)
 
-**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>** 
+**URL: <https://lc.cx/upc-pre-202401-si730-SW57-RocketNotes-validation-sprint-3>**
 
-**Tiempo de la Entrevista:** Comienzo: 48:38 - Fin:  58:33
+**Tiempo de la Entrevista:** Comienzo: 48:38 - Fin: 58:33
 
 **Resumen:**
 
@@ -3215,12 +3216,12 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 Los errores serán puntuados tomando en cuenta la siguiente escala de severidad
 
-|**Nivel** |**Descripción**|
-| :- | :- |
-|1|Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
-|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase|
-|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
-|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+| **Nivel**|**Descripción**|
+|:--------| :- |
+| 1       |Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+| 2       |Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase|
+| 3       |Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+| 4       |Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
 
 **TABLA RESUMEN:**
 
@@ -3269,7 +3270,7 @@ En este video que se presenta a continuación, nosotros, el equipo de Rocket, de
 
 **URLs de las versiones publicadas**
 
-- **YouTube:[ ](https://www.youtube.com/watch?v=BBK-fJ7rDvoLWWiebhDi0Djb-LZJNoVNhn4LXPbQS8Y)<https://youtu.be/7zsjHnD4HE8>** 
+- **YouTube:[ ](https://www.youtube.com/watch?v=BBK-fJ7rDvoLWWiebhDi0Djb-LZJNoVNhn4LXPbQS8Y)<https://youtu.be/7zsjHnD4HE8>**
 - **Microsoft Stream: <https://lc.cx/t-SmDA>**
 
 **Conclusiones:**
